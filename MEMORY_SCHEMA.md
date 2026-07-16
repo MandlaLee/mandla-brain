@@ -24,7 +24,7 @@ Rules:
 Example:
 
 ```text
-samlee-campuskey-private-study-mirror
+student-accommodation-campuskey-private-study-mirror
 ```
 
 ### `type`
@@ -42,6 +42,7 @@ Recommended values:
 - `goal`
 - `status`
 - `timeline`
+- `repository`
 - `unresolved_task`
 - `completed_task`
 - `rejected_option`
@@ -52,14 +53,17 @@ Recommended values:
 
 Use the most precise type. Do not call everything a fact.
 
+Use `repository` when the record’s main purpose is to identify a repository’s role, source-of-truth status, lineage or editing instruction.
+
 ### `subject`
 
 The entity the record is about, such as:
 
 - `Mandla Lee Ndlovu`
 - `Kingship Christian Centre`
-- `SamLee Estates website`
+- `Student Accommodation Successor`
 - `Soil & Spear trading`
+- `MandlaLee/thethrivegeneration`
 
 ### `project`
 
@@ -68,10 +72,17 @@ The broader project name, or `null` for a cross-project personal record.
 Use project names consistently. Preferred current names include:
 
 - `Kingship Christian Centre`
-- `SamLee Estates`
+- `Student Accommodation Successor`
+- `Uni Residentia`
 - `Soil & Spear`
+- `ML Network`
 - `KOTA`
+- `Township Shop Tycoon`
 - `Born In Mzansi`
+- `Cohortly`
+- `FYER Ecosystem`
+- `Jasper Samuel`
+- `Client and Collaborative Sites`
 - `Music`
 - `Website Samples`
 - `Other Projects`
@@ -79,6 +90,8 @@ Use project names consistently. Preferred current names include:
 - `Mandla Brain`
 
 Do not use an obsolete project name as the current project value merely because it appeared historically.
+
+When the current project has no final public name, use a transparent temporary descriptor such as `Student Accommodation Successor` rather than inventing a brand.
 
 ### `key`
 
@@ -91,6 +104,8 @@ Examples:
 - `application_backend`
 - `engine_change`
 - `assistant_working_style`
+- `repository_role`
+- `canonical_distinction`
 
 ### `value`
 
@@ -103,6 +118,12 @@ The actual memory. It may be:
 - a structured object.
 
 Prefer structured objects when several related details belong together.
+
+For repository records, useful fields may include:
+
+```json
+{"role":"production","visibility":"public","current":true,"live_domain":"example.co.za","instruction":"Protect production and test risky changes in staging."}
+```
 
 Do not place secret values in this field.
 
@@ -117,9 +138,11 @@ Recommended values:
 - `completed` — verified finished
 - `historical` — kept to explain evolution
 - `superseded` — replaced by a newer decision
-- `rejected` — explicitly not wanted
+- `rejected` — explicitly not wanted or abandoned
 
 Status describes applicability or progress, not emotional importance.
+
+A repository may be `historical` while still containing useful reusable code. A `rejected` repository must not be revived as the current implementation without a new explicit decision from Mandla.
 
 ### `confidence`
 
@@ -129,7 +152,7 @@ Recommended values:
 - `confirmed` — supported repeatedly or by an artifact
 - `inferred` — a reasonable interpretation that still needs care
 
-An inferred record must never silently override an explicit one.
+An inferred record must never silently override an explicit or canonical one.
 
 ### `source`
 
@@ -146,6 +169,8 @@ Possible source types include:
 - `chat`
 - `document`
 - `repository`
+- `repository_audit`
+- `chat_and_repository_audit`
 - `website`
 - `artifact`
 - `user_confirmation`
@@ -159,7 +184,7 @@ A short array used for retrieval and grouping.
 Use stable, lowercase tags such as:
 
 ```json
-["samlee","website","seo","unresolved"]
+["student-accommodation","website","seo","unresolved"]
 ```
 
 Avoid dozens of redundant tags.
@@ -180,6 +205,29 @@ The date the record was last meaningfully changed or reconfirmed.
 
 Do not update this date merely because the file was reformatted.
 
+## Canonical-memory handling
+
+Read `CANONICAL_MEMORY.md`.
+
+A fact can be canonical to Mandla even if another AI considers it small, unusual or not industry-standard.
+
+When a record captures canon:
+
+- use `type: "rule"` or `type: "decision"`;
+- use `confidence: "explicit"` when Mandla stated it directly;
+- add a `canonical` tag where useful;
+- preserve exact names, capitalisation and distinctions;
+- do not merge it with a similar project or concept;
+- change it only after Mandla explicitly changes it.
+
+Examples include:
+
+- product-name capitalisation;
+- project distinctions such as KOTA versus Township Shop Tycoon;
+- source-of-truth repository roles;
+- a character’s role in a game;
+- relationships and business context that affect future decisions.
+
 ## File placement
 
 ### `memory/identity.jsonl`
@@ -192,17 +240,44 @@ Working style, design preferences, assistant behaviour and durable recommendatio
 
 ### `memory/timelines.jsonl`
 
-Renames, migrations, major milestones, roadmap corrections and other dated evolution.
+Renames, migrations, major milestones, repository transitions, roadmap corrections and other dated evolution.
 
 ### `memory/unresolved.jsonl`
 
 Tasks that are blocked, missing, unfinished or awaiting verification.
 
+### `memory/repositories.jsonl`
+
+Repository roles, visibility, source-of-truth state, predecessor/successor relationships and editing instructions.
+
 ### `projects/<project>.jsonl`
 
 Facts, systems, branding, goals and decisions unique to a project.
 
+### Root Markdown briefs
+
+Use a root Markdown brief when a relationship spans several projects or repositories and needs a clear human-readable explanation, such as:
+
+- `REPOSITORY_INDEX.md`
+- `STUDENT_ACCOMMODATION_SUCCESSOR.md`
+- `GAME_PROJECT_RELATIONSHIPS.md`
+- `CLIENT_AND_COLLABORATIVE_SITES.md`
+
 A record may appear in a project file and be referenced from unresolved or timeline files, but avoid exact duplicate records.
+
+## Repository-role records
+
+A repository record should answer, where known:
+
+1. What project does this repository belong to?
+2. Is it production, staging, active, prototype, historical, abandoned or empty?
+3. Is it the current source of truth?
+4. Does it have a predecessor or successor?
+5. Is there a live deployment or custom domain?
+6. What must an AI do or avoid before editing it?
+7. When was the role last verified?
+
+When source-of-truth status changes, update `memory/repositories.jsonl`, `REPOSITORY_INDEX.md`, `PROJECT_INDEX.md` and add a timeline record.
 
 ## Updating an existing fact
 
@@ -233,25 +308,13 @@ Delete a record only when it is an accidental duplicate with no unique historica
 
 Do not delete an older conflicting decision merely to make the file look clean. Preserve it as historical or superseded when it explains how the project evolved.
 
-## Security rules
+Meaningful abandoned ideas, client history and failed approaches may remain valuable if they explain current decisions.
 
-This repository is public. Never store:
+## Sensitive-data rules
 
-- passwords;
-- access tokens;
-- API keys;
-- private webhook URLs;
-- database passwords or connection strings;
-- banking details;
-- passport, national ID or tax numbers;
-- private home addresses;
-- confidential counselling, member, applicant or donor records.
+This repository is public. Do not store authentication secrets, access tokens, private keys, private webhook URLs, raw database credentials, identity numbers, banking credentials or confidential applicant and customer records.
 
-Safe replacement example:
-
-```json
-{"key":"database_credentials","value":"Credentials are stored in the secure deployment environment and are not committed to Mandla Brain."}
-```
+Store a safe description of the system, relationship or event instead. Another AI needs to know that a credential or private record exists and where it belongs, not receive the secret itself.
 
 ## Validation checklist
 
@@ -262,6 +325,8 @@ Before committing a JSONL change:
 - dates use `YYYY-MM-DD`;
 - the current project name is used;
 - status and type are accurate;
+- repository roles agree with `REPOSITORY_INDEX.md`;
+- canonical distinctions are preserved;
 - no secrets are present;
 - unfinished work is not labelled complete;
 - historical context has not been accidentally erased.
