@@ -14,16 +14,72 @@ Mandla Brain is a structured memory and handover layer. It may describe:
 
 - what Mandla wants;
 - what was decided;
+- what is canonical to Mandla;
 - why a project changed;
+- which repository is production, staging, historical or abandoned;
 - what has been completed;
-- what is still unresolved;
-- where the actual project files live.
+- what remains unresolved;
+- where the real files live.
 
-It does not automatically prove that a corresponding code file, deployment, ZIP, spreadsheet, design or database currently exists. Inspect the real artifact before making claims about its implementation.
+It does not automatically prove that a corresponding code file, deployment, ZIP, spreadsheet, design or database currently exists. Inspect the real artifact before making claims about implementation.
+
+## Mandatory repository check
+
+Before editing any repository, read:
+
+- `REPOSITORY_INDEX.md`
+- `memory/repositories.jsonl`
+
+Identify whether the target is:
+
+- production;
+- staging;
+- active foundation;
+- prototype;
+- historical predecessor;
+- abandoned experiment;
+- empty repository;
+- or a future repository that does not yet exist.
+
+Repository names are not enough. Several projects have multiple generations.
+
+Critical examples:
+
+- Kingship production is `MandlaLee/thethrivegeneration`.
+- Kingship staging is `MandlaLee/test`.
+- Other full Kingship website repositories are historical or abandoned.
+- The current Soil & Spear repository will be `MandlaLee/Soil`, but it has not yet been uploaded.
+- The SamLee repositories are predecessors to a new unnamed accommodation platform.
+
+Never allow older staging or historical files to overwrite newer production work without deliberate comparison and migration.
+
+## Canonical memory
+
+Read `CANONICAL_MEMORY.md`.
+
+Some details may appear minor, unconventional or redundant to an AI but are canonical to Mandla. Explicitly settled names, distinctions, symbols, relationships, philosophies, meanings and product roles must be preserved.
+
+Do not silently:
+
+- merge separate projects;
+- simplify a distinction away;
+- replace a chosen spelling or capitalisation;
+- reinterpret a relationship;
+- convert Mandla’s meaning into a more conventional one;
+- discard an old record that is needed to explain the current canon.
+
+Examples:
+
+- KOTA and Township Shop Tycoon are separate games.
+- Shaka is a character in Soil & Spear, not the main character.
+- WebPfyer, BgFyer, BrandFyer, DocuFyer and Fyer have distinct roles.
+- Uni Residentia is not automatically the new student-accommodation brand.
+
+When two plausible interpretations remain, ask the smallest necessary clarification before changing canon.
 
 ## How to interpret records
 
-Each JSONL line is one record. Use the following fields together rather than relying on one field in isolation.
+Each JSONL line is one record. Use all fields together rather than relying on one field in isolation.
 
 ### `type`
 
@@ -38,10 +94,11 @@ Common values include:
 - `goal` — intended future outcome
 - `status` — project state
 - `timeline` — a dated change or milestone
+- `repository` — a repository’s role and source-of-truth state
 - `unresolved_task` — unfinished or blocked work
 - `completed_task` — work confirmed complete
 - `rejected_option` — an option Mandla explicitly does not want
-- `technical_environment` — devices, repositories, platforms or infrastructure
+- `technical_environment` — devices, platforms or infrastructure
 - `branding` — visual or creative direction
 - `constraint` — a hard limit such as device capability or prompt length
 
@@ -68,18 +125,19 @@ A record whose `type` is `unresolved_task` remains unfinished even if another as
 
 ### Dates
 
-Use `updated_at` and timeline records to determine recency, but do not assume a newer file upload contains newer ideas. Read the record’s actual status and meaning.
+Use `updated_at` and timeline records to determine recency, but do not assume a newer upload contains newer ideas. Read the actual status and meaning.
 
 ## Resolving contradictions
 
 Use this hierarchy:
 
 1. Mandla’s current explicit instruction
-2. Newer active explicit repository decision
-3. Newer active confirmed record
-4. Current in-progress or planned record
-5. Historical record
-6. Superseded or rejected option
+2. Explicit canonical-memory rule
+3. Newer active explicit repository decision
+4. Newer active confirmed record
+5. Current in-progress or planned record
+6. Historical record
+7. Superseded or rejected option
 
 When two active records genuinely conflict and neither clearly supersedes the other, tell Mandla what conflicts and ask only the smallest necessary question.
 
@@ -119,17 +177,21 @@ Across projects, avoid generic AI-generated design habits such as:
 
 Derive layout, typography, imagery, interactions and structure from the specific brand, audience and business model.
 
-## Engineering expectations
+## Engineering and repository expectations
 
 - Inspect the existing project before rewriting it.
+- Read `REPOSITORY_INDEX.md` before cross-repository work.
 - Prefer modular, maintainable systems.
-- Respect the user’s hardware constraints.
-- Use staging for risky changes.
+- Respect Mandla’s hardware constraints.
+- Use staging for risky production changes.
+- Compare staging with production before syncing.
 - Preserve backward compatibility when practical.
 - Test links, forms, responsive behaviour and deployment assumptions.
 - Separate source-of-truth data from presentation.
-- Do not put secrets in client-side code or this repository.
-- State uncertainty instead of inventing missing implementation details.
+- State uncertainty instead of inventing implementation details.
+- Reuse strong code across Mandla’s own repositories when appropriate, while preserving project-specific identity.
+
+Mandla gives connected AI assistants broad creative freedom to inspect and improve his repositories. This does not permit careless overwrites or untested production changes.
 
 ## Artifact preservation
 
@@ -161,38 +223,44 @@ Mandla is a freelance web developer, designer, musician and creator. When he ask
 
 Do not trap him in endless planning when a useful deliverable can be built.
 
-## Security and privacy
+## Memory scope
 
-This repository is public.
+Mandla wants meaningful context retained broadly, including:
 
-Never store:
+- client and collaborator relationships;
+- project and product ideas;
+- repository history;
+- rejected or abandoned directions;
+- mistakes that affected outcomes;
+- archives and predecessor versions;
+- small details that are canonical to him.
 
-- passwords;
-- API keys or tokens;
-- private repository credentials;
-- banking details;
-- passport, identity or tax numbers;
-- private addresses unless already intentionally public and essential;
-- confidential counselling or pastoral-care information;
-- private applicant or member records;
-- secret webhook URLs or database connection strings.
+Do not create permanent records for meaningless spelling slips or punctuation errors.
 
-Store a safe description of the system instead, and reference the secure storage location without exposing the secret.
+Preserve old context as historical or rejected instead of letting it disappear, but never allow it to override current canon.
+
+## Sensitive-data boundary
+
+Mandla Brain is public. Record the relationship, system, event and consequence, but do not store authentication secrets, private keys, access tokens, identity numbers, banking credentials or raw private applicant and customer records.
+
+This boundary protects the usefulness of the repository: another AI needs to know that a system or account exists, not receive the secret itself.
 
 ## Updating Mandla Brain
 
 When Mandla asks you to update the repository:
 
 1. Read the relevant current file first.
-2. Avoid duplicate records.
-3. Use a stable, descriptive lowercase ID with hyphens.
-4. Keep one valid JSON object per line in JSONL files.
-5. Preserve historical decisions when they explain evolution.
-6. Mark replaced decisions as historical or superseded rather than deleting them, unless they are accidental duplicates.
-7. Add a timeline record for major changes.
-8. Add or update unresolved records for unfinished work.
-9. Use the actual conversation date.
-10. Never include secrets.
+2. Read `REPOSITORY_INDEX.md` when repositories are involved.
+3. Avoid duplicate records.
+4. Use a stable, descriptive lowercase ID with hyphens.
+5. Keep one valid JSON object per line in JSONL files.
+6. Preserve historical decisions when they explain evolution.
+7. Mark replaced decisions as historical, superseded or rejected instead of deleting them, unless they are accidental duplicates.
+8. Add a timeline record for major changes.
+9. Add or update unresolved records for unfinished work.
+10. Update repository roles when source-of-truth status changes.
+11. Preserve explicitly canonical distinctions.
+12. Use the actual conversation date.
 
 See `MEMORY_SCHEMA.md` for the record format.
 
@@ -212,10 +280,11 @@ Before continuing a project, you should be able to answer:
 
 1. What is Mandla building?
 2. Why does it exist?
-3. Which decisions are settled?
-4. What is the actual current artifact or repository?
-5. What remains unfinished?
-6. What is the smallest practical next step?
-7. How will the result be preserved?
+3. What is canonical?
+4. Which repository or artifact is the current source of truth?
+5. Which repositories are staging, historical or abandoned?
+6. What remains unfinished?
+7. What is the smallest practical next step?
+8. How will the result be preserved?
 
 If you cannot answer these, read more context before making changes.
