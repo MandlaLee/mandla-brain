@@ -1,228 +1,258 @@
 # Current Handover Brief
 
 **Snapshot date:** 16 July 2026  
-**Purpose:** Give a new AI enough current context to continue Mandla’s work without depending on access to earlier ChatGPT conversations.
+**Purpose:** Give a new AI enough current context to continue Mandla’s work without depending on earlier private conversations.
 
-This document is a snapshot. The structured JSONL records remain the durable memory layer, and actual project repositories or files remain the implementation source of truth.
+This document is a snapshot. The structured records and actual project repositories remain the source of truth.
+
+Read these additional files before touching code:
+
+- `REPOSITORY_INDEX.md`
+- `CANONICAL_MEMORY.md`
+- `STUDENT_ACCOMMODATION_SUCCESSOR.md`
+- `GAME_PROJECT_RELATIONSHIPS.md`
+- `CLIENT_AND_COLLABORATIVE_SITES.md`
 
 ## Who Mandla is
 
-Mandla Lee Ndlovu is a South African freelance web developer, graphic designer, musician, author and game creator. His core web skills are HTML, CSS, JavaScript and MySQL. He frequently builds static sites with GitHub Pages and connects custom domains.
+Mandla Lee Ndlovu is a South African freelance web developer, graphic designer, musician, author and game creator. His core web skills are HTML, CSS, JavaScript and MySQL. He frequently uses GitHub Pages and custom domains.
 
-He is practical, highly creative and works across several ambitious projects at once. He often uses AI to accelerate design, coding, planning, copywriting, document creation and systems architecture.
+His primary machine is an Early-2015 Intel MacBook Air with 4 GB RAM running macOS Monterey 12.7.6. Solutions must not casually assume Apple Silicon, large memory, modern macOS-only software or heavy local infrastructure.
 
-His primary machine is an Early-2015 Intel MacBook Air with 4 GB RAM running macOS Monterey 12.7.6. Solutions should not casually assume modern Apple Silicon, large memory, Docker-heavy workflows or the latest macOS-only applications.
+Mandla uses AI as an engineering, creative and strategy partner. He expects practical action, preservation of real deliverables and continuity across models.
 
-## Why continuity matters now
+## Canonical-memory principle
 
-Mandla needs his work to survive changes in AI models, subscriptions, conversation limits and tool availability. Past sessions sometimes produced detailed plans or claimed to complete builds without preserving the final artifact.
+Some details may appear small or unusual to another AI but are canonical to Mandla. Explicit distinctions, names, symbols, relationships, product meanings and project rules must be preserved exactly unless Mandla changes them.
 
-The immediate continuity goal is therefore:
+Do not collapse similar-looking projects into one merely because an AI finds the distinction inconvenient. Examples include:
 
-> Any capable AI should be able to understand the project world, continue from the correct current decision, create practical deliverables and preserve the result without requiring Mandla to reconstruct months of context.
+- KOTA versus Township Shop Tycoon
+- Kingship production versus historical Kingship repositories
+- Soil & Spear versus old Shaka’s Adventure repositories
+- the different roles inside the FYER ecosystem
 
-Commercial usefulness matters. Mandla has invested substantial time in planning and building but needs more of that work converted into income-producing, deployable or client-ready outcomes. Do not keep him trapped in abstract planning when a practical deliverable is possible.
+## Repository editing authority
 
-## How to work with Mandla
+Mandla permits connected AI assistants to inspect and cross-edit his accessible repositories and reuse strong work across his own projects. This permission comes with responsibility:
 
-- Lead with the useful action or tool.
-- Do not begin with a long legalistic or bureaucratic lecture unless the actual request requires it.
-- Treat him as a learning developer and creative partner, not as someone who needs every concept oversimplified.
-- When he studies a public website, help him inspect what the browser openly receives, understand the patterns and build an original improved implementation.
-- Never assist with unauthorized access to private systems, but do not confuse legitimate public front-end study with intrusion.
-- Protect working production websites through staging.
-- Build modular systems that can grow.
-- Preserve files and ZIPs early.
-- Never claim completion without a verifiable result.
-- Avoid repetitive generic AI design.
-- Keep responses warm, direct and practical.
+- identify production, staging, prototypes and historical copies;
+- inspect actual files before rewriting;
+- preserve working behaviour;
+- test before claiming completion;
+- do not overwrite live production from an older repository;
+- record major migrations and source-of-truth changes here.
 
 ## Immediate project state
 
 ### Kingship Christian Centre
 
-Kingship is the most operationally complex and time-sensitive project.
+Kingship is live and time-sensitive.
 
-Known current direction:
+- Live domain: `kingshipcentre.co.za`
+- Production: `MandlaLee/thethrivegeneration`
+- Staging: `MandlaLee/test`
+- Production is the boss/current website.
+- `kingship`, `Kingship_Official` and `testthrive` are historical.
+- `AuditionsKCC`, `Auditions` and `Kingship-CC-Website` are abandoned.
+- `Kingship-Links` is retained for a future link/follow subdomain.
 
-- Target launch planning: September 2026 in Midrand, Gauteng.
-- Core ministries: worship, music production, marriage and relationships, campus ministry, prayer and Open Hands outreach.
-- Website production repository: `MandlaLee/thethrivegeneration`.
-- Website staging repository: `MandlaLee/test`.
-- Phase 2 administration was completed through Batch 3H.
-- Agreed next phase: automation and integration.
-- Later phase: admin portal.
-- Additional databases beyond this roadmap are optional backlog.
-- Online Kingship Worship auditions are active in the latest recorded state.
-- NPO registration was submitted. Submission is not the same as approval; verify the current status before stating that it is registered as an NPO.
+Current roadmap:
+
+- Phase 2 administration completed through Batch 3H
+- Phase 3 automation and integration
+- Phase 4 admin portal
+
+Auditions remain inside the official website. The page should be simplified so visitors reach the form quickly without unnecessary scrolling or distraction. The system accepts both direct video upload and video links. Application records go to Google Sheets and uploaded files go to Google Drive.
+
+The exact audition requirements on the live official site are canonical. Inspect production before changing duration, file-size, format or link rules.
+
+Production already received the major image, logo, favicon, WhatsApp, leadership, ministry, worship, media and gallery replacements. Five sermon thumbnails remain from the latest audit:
+
+1. Built for Purpose
+2. A Culture of Prayer
+3. Identity in Christ
+4. Building Healthy Relationships
+5. Leadership as Service
+
+“Faith That Moves” is already installed.
 
 Important next actions:
 
-1. Inspect production and staging before changing code.
+1. Compare production and staging before more staging work.
 2. Inventory every form, Apps Script endpoint, spreadsheet tab and data route.
-3. Produce a trusted integration map.
-4. Continue placeholder cleanup in staging.
-5. Prepare public-safe post-registration compliance templates and operational checklists.
-6. Keep private applicant, member, counselling, banking and identity information outside this public repository.
+3. Verify the auditions-to-Sheets-and-Drive flow end to end.
+4. Build the integration map.
+5. Confirm NPO approval before treating post-registration obligations as active.
 
-### SamLee Estates
+### New student-accommodation platform
 
-SamLee Estates is a major commercial and portfolio opportunity.
+The future replacement has no name yet. Do not invent one.
 
-Known current direction:
+The three existing SamLee repositories are historical predecessors:
 
-- Student accommodation focused on Bloemfontein, UFS and CUT.
-- Institutional navy, red and white brand system.
-- No glassmorphism.
-- Strong SEO architecture with accommodation clusters, NSFAS resources, university guides and location pages.
-- The application workflow should use a structured web form, Google Apps Script and a spreadsheet register.
-- CampusKey is being studied as a competitor and UX reference.
-- Mandla is setting up SiteSucker on macOS to create a private local mirror of CampusKey’s publicly delivered pages and assets for learning.
+- `MandlaLee/SamLee`
+- `MandlaLee/samlee-estates-1.2`
+- `MandlaLee/samlee2`
+
+The new platform should preserve the strongest SamLee concept: many genuinely useful SEO pages organised around UFS, CUT, Bloemfontein locations, NSFAS, room types, affordability, applications, parent concerns and student guides.
+
+CampusKey is being studied using SiteSucker. The goal is to understand its publicly delivered information architecture and customer journey, then build an original improved system.
 
 Important next actions:
 
-1. Study the downloaded public front end and document information architecture, components, journeys, responsive behaviour and weaknesses.
-2. Translate findings into an original SamLee system.
-3. Complete and test the application backend.
-4. Build pages that can attract enquiries and strengthen Mandla’s portfolio.
-5. Preserve the deployable ZIP or repository state.
+1. Finish the CampusKey teardown.
+2. Choose the new brand name.
+3. Create the replacement repository.
+4. reuse the strongest SEO, accessibility, application and conversion patterns from the old builds.
+5. Verify the real application workflow.
+
+### Uni Residentia
+
+Uni Residentia was registered through CIPC in 2025 but never operated. The original account access details were lost and its present status is unknown.
+
+Do not assume Uni Residentia is active or use it as the new accommodation brand without verification.
 
 ### Soil & Spear
 
-Known current direction:
+Soil & Spear is being built in Godot 4 through Claude.
 
-- Godot 4 is the current engine.
-- 2D isometric Southern African RPG.
-- Phase 1 should centre on Nameless Village.
-- Core systems and art direction are extensively recorded in `projects/soil-and-spear.jsonl`.
+- Current title: Soil & Spear
+- Shaka is a character, not the main character.
+- Intended repository: `MandlaLee/Soil`
+- Latest project has not yet been uploaded to GitHub.
 
-Current blocker:
+Historical predecessors:
 
-- Global class parse failures in `CharacterData.gd` and `RelationshipData.gd`.
-- `TraitSystem` unresolved.
-- Type inference and missing method references.
+- `MandlaLee/ML-NETWORK`
+- `MandlaLee/SHAKA-WEBSITE`
+- `MandlaLee/shakasadventures`
 
-Do not promise a complete Godot-ready ZIP until these errors are fixed and the build is actually preserved.
+Do not use the old Shaka repositories as the current source code.
+
+The next reliable technical audit should happen after Mandla uploads the latest Godot project to `MandlaLee/Soil`.
+
+### ML Network
+
+ML Network is Mandla’s intended game-studio identity. It remains a concept with zero released games. Its existing repository mainly reflects the old Shaka’s Adventure period.
 
 ### KOTA
 
-Known current direction:
+KOTA is a stationary behind-the-counter kota-shop game. The player prepares food, serves customers, unlocks ingredients and characters, and upgrades the shop from a shack into a restaurant.
 
-- South African kota-shop simulation.
-- Good Pizza-like accessibility, but original South African systems, characters, food and culture.
-- Customer chapters and asset requirements are recorded.
+A previously claimed Claude build was not preserved. Recover or regenerate it in smaller saved bundles.
 
-Current blocker:
+### Township Shop Tycoon
 
-- A previously reported Claude build was not preserved as a ZIP.
+`MandlaLee/Township-Shop-Tycoon` is a separate movement-based pixel RPG/shop simulation. It includes village movement, truck travel, factory restocking, shelf placement and broader shop management.
 
-The next AI should either locate the real build or regenerate it in smaller saved bundles. Do not rely on the earlier completion claim.
+Do not merge it with KOTA. Shared technology can be considered later, but the games have different player experiences.
 
-### Born In Mzansi
+### Cohortly
 
-Known current direction:
+Cohortly should work like Linkfire meets Songwhip: universal music links, attractive public release pages, attribution, campaign tracking and fan intelligence.
 
-- South African life simulation.
-- Modular system bundles have been defined.
-- The interface must be original and locally grounded.
+The project is stagnant, not abandoned. Neither existing repository satisfies Mandla:
 
-Next action:
+- `MandlaLee/cohortly`
+- `MandlaLee/Cohortly-Deepseek`
 
-- Continue bundle by bundle, with each output saved and verified before moving on.
+A fresh architecture can replace both after reusable parts are inspected.
 
-### WEBPFYER
+### FYER ecosystem
 
-Known current direction:
+Canonical names:
 
-- Free, private browser-based image-to-WebP converter.
+- BgFyer
+- WebPfyer
+- BrandFyer
+- DocuFyer
+- Fyer
 
-Current need:
+Purpose:
 
-- Produce and preserve a real downloadable or deployed build.
+- BgFyer removes backgrounds.
+- WebPfyer becomes the universal converter for images, PDFs, documents and web assets.
+- BrandFyer handles brand discovery and assets.
+- DocuFyer becomes the office/document environment.
+- Fyer becomes the main Canva-style creative workspace.
 
-This is a potentially useful portfolio and lead-generation project because it can demonstrate Mandla’s ability to create practical web tools.
+Repository state:
 
-### Website portfolio and income
+- `MandlaLee/WebPfyer` is the only working FYER version.
+- `MandlaLee/BgFyer` is an incomplete prototype.
+- `MandlaLee/BGREMOVER-` is historical.
 
-Mandla’s strongest immediate path to income is likely to come from turning his existing skills and projects into visible proof:
+The long-term goal is to reduce dependency on Canva, Microsoft Office, iLovePDF-style tools and separate brand-asset services.
 
-- polished live websites;
-- before-and-after redesigns;
-- clear service packages;
-- working forms and automation;
-- useful browser tools;
-- niche landing pages;
-- strong local South African SEO examples;
-- client-ready proposals and onboarding systems.
+### 123Kasi
 
-Do not assume that adding more unfinished concepts is automatically useful. When discussing income, prefer finishing, deploying, packaging and selling what is already close to usable.
+The static owner-uploaded MVP is more advanced than earlier memories suggested. The folder-to-album feed, generated `data/feed.json` and GitHub Actions feed updates are implemented.
 
-## Settled design and workflow preferences
+Public user uploads would be a later backend product stage requiring storage, authentication and moderation.
 
-### General web design
+### Jasper Samuel official website
 
-- Avoid generic AI template aesthetics.
-- Build distinct brand worlds.
-- Vary site structure according to the customer journey.
-- Prioritize memorable identity over safe prettiness.
-- Do not use famous brands as random decoration; use references only when strategically aligned.
+`MandlaLee/JasperSamuel` is Jasper Samuel’s official personal website, separate from but closely connected to Kingship.
 
-### Kingship design
+It needs:
 
-- Intentional minimalism.
-- Black, gold and white.
-- Bold condensed typography.
-- Clean structured hierarchy.
-- Restrained brush or paint accents.
-- No random crowns, icons, symbols or invented logos.
-- Use the actual Kingship crown where required.
+- a custom domain;
+- a real store backend or an Amazon-linked catalogue.
 
-### SamLee design
+### Ntiyiso publishing project
 
-- Navy, red, white and light grey.
-- Institutional, trustworthy and student-focused.
-- No glassmorphism.
-- Social graphics may use embroidered or chenille-patch styling.
+Ntiyiso is Mandla’s former partner and has a Facebook audience of approximately 38,000. She agreed to be the public-facing partner for selling books through Amazon.
 
-### AI and development tools
+The project is stalled because Mandla has not yet written the books. The website repository is not proof of an existing catalogue.
 
-For Claude-oriented capability improvement, Mandla prefers tools that strengthen the AI’s coding and execution ability, including:
+### Lerato Ka Mihla Maintenance Services
 
-- Desktop Commander for files, terminal, builds, Git and ZIPs.
-- Control Chrome for browser testing and console inspection.
-- Context7 for current technical documentation.
-- Mozilla MDN for web-platform documentation.
+A friend asked Mandla to help create a business through CIPC. Mandla also built a website for free. The process stalled after the CIPC customer profile was created, the friend did not return, and the website was never published.
+
+It may later become a polished portfolio case study after content and technical verification.
+
+### Mandla portfolio
+
+`MandlaLee/MandlaLee` is the current portfolio repository. Mandla considers it mediocre.
+
+Do not merely redesign it with more placeholders. First polish the strongest real products and case studies, then rebuild the portfolio around proof of work and a clear route to paid enquiries.
+
+### Discarded repository
+
+`MandlaLee/slider` is discarded and must not be treated as active.
+
+## Commercial priority
+
+Mandla needs existing work converted into visible, deployable and sellable proof. Prefer:
+
+- finishing WebPfyer and the FYER foundation;
+- rebuilding the student-accommodation platform under a strong new brand;
+- turning Kingship and Jasper Samuel into strong case studies;
+- reviving Cohortly as a real product;
+- polishing the portfolio around working products and real client work.
+
+Do not automatically add more concepts when existing work can be finished and sold.
 
 ## Known risks
 
-- Generated ZIPs may be lost when work is left until the end of a long session.
-- An AI may confuse a plan in Mandla Brain with code that already exists.
-- Older project names or roadmaps may be revived accidentally.
-- Production may be changed before staging verification.
-- Private information may be placed in a public repository.
-- Mandla’s hardware may be ignored when recommending tools.
-- An assistant may give extensive caveats before giving the practical answer.
-- Projects may remain impressive plans without reaching deployment or revenue.
+- An older repository may be mistaken for production.
+- Staging may be behind production.
+- A planned feature may be mistaken for implemented code.
+- An AI may erase a canonical distinction because it seems minor.
+- Builds may be described as complete without being preserved.
+- The user’s 4 GB Intel Mac may be ignored.
+- Projects may remain impressive ideas instead of becoming income-producing products.
 
 ## Required behaviour before ending substantial work
 
 1. Save or commit the deliverable.
-2. Verify the result exists.
+2. Verify it exists.
 3. State exactly what was completed.
-4. Record the location of the result.
-5. Update the relevant memory and unresolved task.
+4. Record the location.
+5. Update the relevant memory and unresolved work.
 6. Leave a clear next action.
-
-## What must be verified rather than assumed
-
-- Current NPO approval status.
-- Current live state of all Kingship forms and integrations.
-- Current contents of production and staging repositories.
-- Whether the KOTA build exists anywhere.
-- Current deployment state of SamLee Estates, WEBPFYER, 123Kasi and other tools.
-- Current UFS 2027 application status.
-- Any price, legal requirement, software compatibility or public information that may have changed.
 
 ## Best first action for a new AI
 
-Ask Mandla what project he wants to continue, then read that project’s JSONL, its relevant unresolved records and the actual working artifact. Do not ask him to repeat information already contained here.
+Ask Mandla which project he wants to continue. Then read the relevant project records, `REPOSITORY_INDEX.md`, unresolved tasks and the actual working repository. Do not ask him to repeat settled information.
