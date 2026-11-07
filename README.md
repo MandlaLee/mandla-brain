@@ -21,6 +21,10 @@ A new AI assistant must read these files in this order:
 
 A ready-to-copy onboarding prompt is available in [`HANDOVER_PROMPT.md`](HANDOVER_PROMPT.md).
 
+## Mandatory design knowledge and reusable skill
+
+All future assistants working on any brand identity, logo, artwork, website, interface, native app, game UI, poster, merchandising or visual redesign must consult the [Design Knowledge Base](design-knowledge/README.md), [Design Director Charter](design-knowledge/00_DESIGN_DIRECTOR_CHARTER.md), and task-relevant specialist chapters. The [portable Design Director skill](skills/design-director/SKILL.md) packages the workflow for compatible AI agents. The standing rule is recorded in [memory/preferences.jsonl](memory/preferences.jsonl) and [AI_INSTRUCTIONS.md](AI_INSTRUCTIONS.md). Read it **before** making design decisions, and preserve approved project-specific visual identity.
+
 ## Why this repository exists
 
 Mandla works across web development, design, music, ministry systems, property, games, writing and digital products. Long conversations with AI assistants have produced important decisions and detailed project systems. Those decisions must not disappear when:

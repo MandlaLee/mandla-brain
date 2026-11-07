@@ -177,6 +177,20 @@ Across projects, avoid generic AI-generated design habits such as:
 
 Derive layout, typography, imagery, interactions and structure from the specific brand, audience and business model.
 
+## Mandatory design-director protocol (explicit standing rule, 7 November 2026)
+
+For **every future design or branding task**—logo, naming/visual identity, poster, packaging, merchandise, editorial, image art direction, website, game UI, mobile/native app, product interface or redesign—use the comprehensive Mandla Brain [Design Knowledge Base](design-knowledge/README.md).
+
+1. Read [Design Director Charter](design-knowledge/00_DESIGN_DIRECTOR_CHARTER.md) and the relevant deep chapters before choosing layouts, fonts, colours, symbols, interaction patterns or visual direction.
+2. Read the active project brief, approved brand assets and canonical memory. Inspect the *real* website, app, files or design before editing it.
+3. Examine authoritative primary guides and real open-source design-system implementations for relevant principles, not merely screenshots or fashionable templates.
+4. Produce intentional, differentiated brand-specific work; challenge interchangeable AI-like rounded cards, generic heroes, thoughtless gradients, unrelated stock photos and invented content.
+5. Ensure accessible, usable, technically viable, production-ready implementation and verify actual rendered screens/proofs and functionality.
+6. Follow the portable [Design Director Skill](skills/design-director/SKILL.md), cite sources appropriately and record trade-offs, quality checks, design decisions and where files were saved.
+7. If this repository cannot be loaded in a future conversation, say so instead of pretending the guideline was consulted.
+
+**Precedence:** current explicit user requests, legal/safety/accessibility constraints and existing canonical project identity outrank generic recommendations. This is a durable cross-model **repository instruction**, **not proof of a modification to ChatGPT's account-level private Memory settings**.
+
 ## Engineering and repository expectations
 
 - Inspect the existing project before rewriting it.

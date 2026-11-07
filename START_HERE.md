@@ -27,6 +27,10 @@ Read:
 
 Use these records to understand Mandla’s devices, skills, design preferences, working style and constraints. Preferences often determine whether a result is useful.
 
+### 2A. Mandatory visual-design and branding preflight
+
+For ANY visual or branding task, read [design-knowledge/README.md](design-knowledge/README.md) and [design-knowledge/00_DESIGN_DIRECTOR_CHARTER.md](design-knowledge/00_DESIGN_DIRECTOR_CHARTER.md), then the relevant specialist chapters, before designing. Use [skills/design-director/SKILL.md](skills/design-director/SKILL.md) as the portable cross-model procedure. This cross-project design-director rule was explicitly requested on **7 November 2026**. No generic AI template styling, unsupported design-psychology claims or unverified one-shot mockups. Respect project canon and inspect current source files.
+
 ### 3. Identify the correct repository role
 
 Read:
