@@ -1,0 +1,47 @@
+name: Design knowledge integrity
+
+on:
+  push:
+    paths:
+      - 'design-knowledge/**'
+      - 'skills/design-director/**'
+      - '.agents/skills/design-director/**'
+      - '.claude/skills/design-director/**'
+      - 'AGENTS.md'
+      - 'CLAUDE.md'
+      - 'AI_INSTRUCTIONS.md'
+      - 'START_HERE.md'
+      - 'memory/preferences.jsonl'
+      - 'memory/timelines.jsonl'
+      - 'scripts/validate_design_knowledge.py'
+      - '.github/workflows/design-knowledge-validation.yml'
+  pull_request:
+    paths:
+      - 'design-knowledge/**'
+      - 'skills/design-director/**'
+      - '.agents/skills/design-director/**'
+      - '.claude/skills/design-director/**'
+      - 'AGENTS.md'
+      - 'CLAUDE.md'
+      - 'AI_INSTRUCTIONS.md'
+      - 'START_HERE.md'
+      - 'memory/preferences.jsonl'
+      - 'memory/timelines.jsonl'
+      - 'scripts/validate_design_knowledge.py'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-design-knowledge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate design knowledge and rule records
+        run: python3 scripts/validate_design_knowledge.py
