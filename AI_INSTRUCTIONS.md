@@ -185,7 +185,7 @@ For **every future design or branding task**—logo, naming/visual identity, pos
 2. Read the active project brief, approved brand assets and canonical memory. Inspect the *real* website, app, files or design before editing it.
 3. Examine authoritative primary guides and real open-source design-system implementations for relevant principles, not merely screenshots or fashionable templates.
 4. Produce intentional, differentiated brand-specific work; challenge interchangeable AI-like rounded cards, generic heroes, thoughtless gradients, unrelated stock photos and invented content.
-5. Ensure accessible, usable, technically viable, production-ready implementation and verify actual rendered screens/proofs and functionality.
+5. Ensure accessible, usable, technically viable, production-ready implementation and verify actual rendered screens/proofs and functionality. For AI-built interfaces use chapters [25–30](design-knowledge/25_AGENT_SKILLS_VIBE_CODING.md) (vibe coding, prompt contracts, browser/native tests, UI code patterns, skill security and agent evaluations); an attractive generated screenshot or successful compile is not a completed product.
 6. Follow the portable [Design Director Skill](skills/design-director/SKILL.md), cite sources appropriately and record trade-offs, quality checks, design decisions and where files were saved.
 7. If this repository cannot be loaded in a future conversation, say so instead of pretending the guideline was consulted.
 
