@@ -127,3 +127,15 @@ Completion requires an inspectable saved artifact, clear tested scope and honest
 
 ## Final question
 If Mandla sees the result at actual size, will it feel like a purposeful, finished, authentic product built for his world—or a familiar AI template wearing a new colour? If the honest answer is the latter, revise before calling it final.
+
+## AI-assisted design audit supplement (2026-11-07)
+
+The original visual rubric remains valid. For any AI-coded project, add a **two-part proof** rather than relying on an agent's stylistic confidence:
+
+**Creative review:** identify the specific product audience and task; mask the logo and check distinctiveness; inspect image and typography consistency; explain why the hero/space/card structure belongs to this subject.
+
+**Technical review:** load the actual app in a real renderer, inspect DOM/native hierarchy, test keyboard focus, contrast, responsive overflow, long localized text, network/permission failures, and confirm all primary actions reach their intended state. Record console errors and failure reproductions.
+
+See [Chapter 25](25_AGENT_SKILLS_VIBE_CODING.md), [rendered test plan](27_RENDERED_BROWSER_DESKTOP_REVIEW.md), [implementation recipes](28_UI_ENGINEERING_IMPLEMENTATION.md), [skill security](29_AGENT_SKILL_INSTALL_SECURITY.md), and [evaluation fixture framework](30_DESIGN_AGENT_EVALUATIONS.md).
+
+**Critical:** A green build, one screenshot, a marketing screenshot-comparison tool or an automated scanner alone does not prove both tracks. For high-stakes trading or user data, incorrect state/provenance is a release blocker independent of a beautiful style.

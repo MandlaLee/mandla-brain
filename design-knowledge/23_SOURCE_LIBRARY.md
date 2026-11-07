@@ -1,6 +1,6 @@
 # 23 — Research Sources, Primary References, GitHub Repositories and Evidence Registry
 
-**Research version:** 7 November 2026. This catalog includes official standards and original organization docs, public GitHub implementations, practitioner analyses and published research. Links serve as provenance and starting points; product documentation can evolve. A listed source is not a universal recommendation or an authorization to reuse its artwork. See [Chapter 20](20_GITHUB_REPO_STUDY.md) for original practical comparisons.
+**Research version:** 7 November 2026 (expanded for AI design skills). This catalog includes official standards and original organization docs, public GitHub implementations, practitioner analyses and published research. Links serve as provenance and starting points; product documentation can evolve. A listed source is not a universal recommendation or an authorization to reuse its artwork. See [Chapter 20](20_GITHUB_REPO_STUDY.md) for original practical comparisons.
 
 ## How to use this catalogue
 
@@ -157,3 +157,30 @@ Research combined official web design/branding guidance, multiple semantic searc
 
 ## Reference use and ethics
 The manual consists of original synthesis and short attributed references; it does not redistribute protected brand manuals in full, copyrighted illustrations or third-party fonts. Do not commit external logo images into this public repo for convenience. The source library is maintained so another assistant can cross-check before designing.
+
+## K — Vibe-coding design skills and AI-agent tooling (added 7 November 2026)
+
+| Source | Primary file/link | Type | Verified lesson / caution |
+|---|---|---|---|
+| Anthropic Frontend Design | https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md | Official skill | Creative direction, typography, generic-AI critique; web-focused |
+| Anthropic Webapp Testing | https://github.com/anthropics/skills/blob/main/skills/webapp-testing/SKILL.md | Official skill | Browser/DOM reconnaissance, Playwright interactions, screenshots |
+| Anthropic Canvas Design | https://github.com/anthropics/skills/blob/main/skills/canvas-design/SKILL.md | Official skill | Visual-philosophy approach for original static art; not a working-app recipe |
+| Vercel Web Design Skill | https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md | Official skill | Code inspection against current interface rules; file/line audit |
+| Vercel Web Interface Rules | https://github.com/vercel-labs/web-interface-guidelines/blob/main/command.md | Official living guidelines | Semantic elements, keyboard focus, overflow, motion, forms and performance |
+| Vercel React Best Practices | https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/SKILL.md | Official skill | Performance priorities for React and Next.js only |
+| Impeccable | https://github.com/pbakaus/impeccable | Open-source community skill/tool | Separate design critique, audit, polish, harden and document; review CLI/hook permission risks |
+| Impeccable audit reference | https://github.com/pbakaus/impeccable/blob/main/skill/reference/audit.md | Public source file | Independent technical review, explicit evidence and severity |
+| Impeccable harden reference | https://github.com/pbakaus/impeccable/blob/main/skill/reference/harden.md | Public source file | Extreme text, locale, network and error conditions |
+| UI UX Pro Max | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill | Community project | Searchable style/colour/pattern references; recommendations need original brand scrutiny |
+| Taste Skill | https://github.com/leonxlnx/taste-skill/blob/main/skills/taste-skill/SKILL.md | Community skill | Strong subject-specific art direction, real imagery and browser checks; hard rules not universal |
+| Agent Skills standard | https://agentskills.io/specification | Format specification | SKILL.md schema, progressive disclosure, references and scripts |
+| Claude Skills | https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview | Official product docs | Claude skill discovery and account/client differences |
+| OpenAI Build Skills | https://learn.chatgpt.com/docs/build-skills | Official product docs | Metadata discovery, repo-local skills and ChatGPT/Codex differences |
+| OpenAI plugin skill concepts | https://developers.openai.com/plugins/concepts/skills | Official product docs | Skills as workflow around controlled tools |
+| VS Code Agent Skills | https://code.visualstudio.com/docs/agent-customization/agent-skills | Official IDE docs | Exact Claude/Codex/Copilot project skill directory conventions |
+| Anthropic coding best practices | https://www.anthropic.com/engineering/claude-code-best-practices | Engineering guidance | Test and screenshot iterative loops |
+| Playwright | https://playwright.dev/docs/intro | Official framework docs | Automated browser interaction and screenshots |
+
+**Source quality distinction:** The Anthropic, Vercel and OpenAI original files were read for documented methods. The Impeccable and Taste community projects were examined from their own repositories. Their “better design” claims are vendor/author claims, not results of independently controlled testing conducted for Mandla. **No third-party skill executables or hooks were installed.**
+
+**Security:** The Impeccable README describes a live-copy fallback that may bypass sandbox and approval safeguards. The Mandla guideline deliberately does not activate that path; see [Chapter 29](29_AGENT_SKILL_INSTALL_SECURITY.md). If another agent proposes `npx skills add` or other commands, first inspect package/scripts/network permissions and verify which directories they will modify.
