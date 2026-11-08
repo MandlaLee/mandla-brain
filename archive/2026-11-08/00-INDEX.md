@@ -6,7 +6,7 @@ This is a **reconstructed archive** of projects, instructions, decisions, and kn
 1. `01-OPERATING-GUIDE.md` — collaboration and design principles.
 2. `02-SOFTWARE-AND-AI.md` — FaceWeave, SenAI, Aurum, TIRHANI, IDGEN, DOLBOT, FOTOFYER, AppFYER, Cohortly, games.
 3. `03-WEBSITES-BRANDS-AND-MEDIA.md` — client sites, brands, design work, music, media, church.
-4. `04-CAREER-EDUCATION-AND-OTHER-WORK.md` — employment, academic, exam and trading work.
+4. `04-CAREER-EDUCATION-AND-OTHER-WORK.md` — employment, academic and trading work.
 5. `05-NO-LEDGER-AND-NEXT-ACTIONS.md` — deferred work and next milestones.
 6. `06-RECONSTRUCTION-GAPS.md` — missing artifacts and audit checklist.
 
