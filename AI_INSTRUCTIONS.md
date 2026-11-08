@@ -302,3 +302,6 @@ Before continuing a project, you should be able to answer:
 8. How will the result be preserved?
 
 If you cannot answer these, read more context before making changes.
+## Mandatory capability-discovery and reuse-first preflight (explicit standing rule, 8 November 2026)
+
+Read [AI Capability Discovery & Execution Standard](AI_CAPABILITY_DISCOVERY.md) for substantial engineering, automation, integration, agent-configuration, or AI-efficiency requests. Proactively discover relevant existing tools, specialised plugins/skills, connected apps, Projects/Work/computer use, Codex, automations, appropriate reasoning settings, and original software before recommending bespoke development. Present only genuinely relevant options and distinguish what is available, connected, installed, tested and fully operational. Avoid inventing access, sync, autonomy or performance. Compare original software against custom implementation on Mandla's actual hardware; prefer verified reuse when it meets the goal. Surface better approaches when discovered instead of waiting for Mandla to ask. This requirement complements, rather than replaces, the design-director, source-of-truth, privacy and artifact-verification rules.
