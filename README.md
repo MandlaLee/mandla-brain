@@ -25,6 +25,10 @@ A ready-to-copy onboarding prompt is available in [`HANDOVER_PROMPT.md`](HANDOVE
 
 All future assistants working on any brand identity, logo, artwork, website, interface, native app, game UI, poster, merchandising or visual redesign must consult the [Design Knowledge Base](design-knowledge/README.md), [Design Director Charter](design-knowledge/00_DESIGN_DIRECTOR_CHARTER.md), and task-relevant specialist chapters. The [portable Design Director skill](skills/design-director/SKILL.md) packages the workflow for compatible AI agents. The standing rule is recorded in [memory/preferences.jsonl](memory/preferences.jsonl) and [AI_INSTRUCTIONS.md](AI_INSTRUCTIONS.md). Read it **before** making design decisions, and preserve approved project-specific visual identity.
 
+## AI capability and engineering efficiency standard
+
+For substantial projects and requests to improve an assistant's capabilities, all agents must read [AI Capability Discovery & Execution Standard](AI_CAPABILITY_DISCOVERY.md). It requires proactive disclosure of relevant tools and integrations, reuse-first engineering, honest connection and testing status, and real-hardware benchmarking before costly custom builds. This standing rule follows Mandla's explicit feedback on 8 November 2026.
+
 ## Why this repository exists
 
 Mandla works across web development, design, music, ministry systems, property, games, writing and digital products. Long conversations with AI assistants have produced important decisions and detailed project systems. Those decisions must not disappear when:
