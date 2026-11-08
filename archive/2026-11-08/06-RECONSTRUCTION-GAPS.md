@@ -10,7 +10,7 @@
 ## Recommended evidence audit
 - Enumerate MandlaLee repositories, branches, READMEs, commit histories and releases.
 - Inspect local `~/Desktop`, `~/Downloads`, `~/Documents` project directories, shortcuts, compiled apps, source code and test logs (with user's permission).
-- Inspect Notion and Google Drive project indexes, including “grade 9” and earlier “spotify 03NOV” folders.
+- Inspect Notion and Google Drive project indexes, including earlier “spotify 03NOV” folders.
 - Link verified code artifacts, screenshots, design files, bug reports, and build instructions to individual project pages.
 - Keep secrets, private credentials, identity data, personal correspondence, medical data and unnecessary personal identifiers out of public GitHub.
 - Record for each project: last verified date, source path, running build, next task, dependencies, and known blockers.
