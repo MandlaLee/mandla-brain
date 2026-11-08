@@ -3,7 +3,7 @@ Machine-first knowledge router. Read this file first. Do **not** load the whole 
 
 ## Zero-to-context path (minimum reads)
 1. Read this file. It contains the critical rules.
-2. Resolve the task in [routes.json](routes.json). Use a topic route, project alias, or the [generated project catalog](generated/catalog.json). Unknown task? Use [record-index.json](generated/record-index.json).
+2. Resolve the task in [ROUTES.json](ROUTES.json). Use a topic route, project alias, or the [generated project catalog](generated/catalog.json). Unknown task? Use [record-index.json](generated/record-index.json).
 3. Read **one relevant** [generated project card](generated/cards/) for a quick map, then open **only the specific canonical JSONL records and documents** required to act. Cards are *derived previews*, not authoritative replacements.
 4. For source-code changes, inspect the **real target repository and its role** from [REPOSITORY_INDEX.md](../REPOSITORY_INDEX.md). Mandla Brain contains context, not application source.
 5. Before finishing, test the actual artifact, preserve changes, and note what remains unverified.

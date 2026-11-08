@@ -3,6 +3,7 @@
 from __future__ import annotations
 import importlib.util
 import json
+import os
 import re
 import subprocess
 import sys
@@ -69,6 +70,20 @@ def check_refs():
         expect((ROOT/path).stat().st_size<=maximum,path+" exceeds fast-start budget")
     return manifest
 
+def exact_case(path):
+    # macOS HFS/APFS may be case-insensitive; GitHub Actions Linux is not.
+    # Test lexical components, not realpath(), to catch wrong-case links locally.
+    try:
+        rel=Path(os.path.normpath(str(path))).relative_to(ROOT)
+        current=ROOT
+        for part in rel.parts:
+            if part not in {p.name for p in current.iterdir()}:
+                return False
+            current=current/part
+        return True
+    except (ValueError, FileNotFoundError, NotADirectoryError):
+        return False
+
 def check_markdown_links():
     files=[ROOT/"README.md",ROOT/"START_HERE.md",ROOT/"HANDOVER_PROMPT.md",
            ROOT/"AGENTS.md",ROOT/"CLAUDE.md",ROOT/"AI_INSTRUCTIONS.md",
@@ -82,10 +97,11 @@ def check_markdown_links():
                 continue
             if target.startswith("<") and target.endswith(">"):target=target[1:-1]
             if " " in target:continue
-            path=(file.parent/target).resolve()
+            path=Path(os.path.normpath(str(file.parent/target)))
             expect(path.is_relative_to(ROOT.resolve()),f"link escapes repo: {file}: {target}")
             if path.is_relative_to(ROOT.resolve()):
-                expect(path.exists(),f"broken internal link: {file.relative_to(ROOT)} -> {target}")
+                expect(path.exists() and exact_case(path),
+                       f"broken/wrong-case link: {file.relative_to(ROOT)} -> {target}")
 
 def check_queries():
     sys.path.insert(0,str(ROOT/"scripts"))
