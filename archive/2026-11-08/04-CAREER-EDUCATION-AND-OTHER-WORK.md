@@ -14,12 +14,6 @@
 - University of the Free State B Admin (Public Administration) studies started 2022; interruption and appeal/readmission discussions, programme change to BCom Business Management not approved. Completion planning and curriculum advice discussed.
 - Academic status can change: verify with institution before advising deadlines or eligibility. Avoid storing student numbers and confidential documents in public repo.
 
-## Grade 9 teaching materials
-- **Weathering exam + memo PDF:** frost shattering, scree, physical/chemical/biological weathering, exfoliation, oxidation, oxides, lichens, human impacts; exclude erosion when user requested weathering only.
-- **Rivers exam + memo PDF (100 marks):** meanders, oxbow lakes, waterfalls, rapids, delta, upper/middle/lower river course.
-- Additional question paper based on uploaded reference images, with separate memorandum requested; download problems reported; requested upload to Drive folder “grade 9.” Verify Drive files rather than assuming upload.
-- Teaching approach: assess conceptual understanding, not just memorization; use age-appropriate application questions.
-
 ## Trading education and tools
 - Instruments: XAUUSD, NAS100, US30, BTCUSD, UK Oil/Brent. MetaTrader 4, brokers discussed XM/Exness/RCG/Vault.
 - Trading method: 9am South Africa session, 1H fair value gap and 8am high/low; supply/demand and S/R.
