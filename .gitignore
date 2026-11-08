@@ -1,0 +1,15 @@
+# Generated execution and editor files (AI retrieval source remains versioned)
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.swp
+*.swo
+*.tmp
+*.bak.local
+.venv/
+venv/
+node_modules/
+.env
+.env.*
+!.env.example

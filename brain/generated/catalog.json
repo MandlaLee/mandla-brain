@@ -1,0 +1,437 @@
+{
+  "entry": "brain/BOOT.md",
+  "note": "Project cards are noncanonical previews, not live status.",
+  "project_total": 23,
+  "projects": [
+    {
+      "card": "brain/generated/cards/123kasi.md",
+      "name": "123Kasi",
+      "newest_record_date": "2026-07-16",
+      "record_count": 6,
+      "slug": "123kasi",
+      "source_files": [
+        "memory/repositories.jsonl",
+        "memory/timelines.jsonl",
+        "projects/other-projects.jsonl"
+      ],
+      "statuses": {
+        "active": 2,
+        "completed": 2,
+        "in_progress": 2
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/born-in-mzansi.md",
+      "name": "Born In Mzansi",
+      "newest_record_date": "2026-07-16",
+      "record_count": 6,
+      "slug": "born-in-mzansi",
+      "source_files": [
+        "projects/born-in-mzansi.jsonl"
+      ],
+      "statuses": {
+        "active": 4,
+        "in_progress": 1,
+        "planned": 1
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/canva.md",
+      "name": "Canva",
+      "newest_record_date": "2026-07-16",
+      "record_count": 1,
+      "slug": "canva",
+      "source_files": [
+        "memory/preferences.jsonl"
+      ],
+      "statuses": {
+        "active": 1
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/client-and-collaborative-sites.md",
+      "name": "Client and Collaborative Sites",
+      "newest_record_date": "2026-07-16",
+      "record_count": 4,
+      "slug": "client-and-collaborative-sites",
+      "source_files": [
+        "memory/repositories.jsonl",
+        "memory/unresolved.jsonl"
+      ],
+      "statuses": {
+        "unresolved": 4
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/cohortly.md",
+      "name": "Cohortly",
+      "newest_record_date": "2026-07-16",
+      "record_count": 8,
+      "slug": "cohortly",
+      "source_files": [
+        "memory/repositories.jsonl",
+        "memory/timelines.jsonl",
+        "memory/unresolved.jsonl",
+        "projects/cohortly.jsonl"
+      ],
+      "statuses": {
+        "active": 1,
+        "historical": 2,
+        "in_progress": 1,
+        "planned": 2,
+        "unresolved": 2
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/fyer-ecosystem.md",
+      "name": "FYER Ecosystem",
+      "newest_record_date": "2026-07-16",
+      "record_count": 17,
+      "slug": "fyer-ecosystem",
+      "source_files": [
+        "memory/repositories.jsonl",
+        "memory/timelines.jsonl",
+        "memory/unresolved.jsonl",
+        "projects/fyer-ecosystem.jsonl",
+        "projects/other-projects.jsonl"
+      ],
+      "statuses": {
+        "active": 5,
+        "completed": 1,
+        "historical": 2,
+        "in_progress": 3,
+        "planned": 5,
+        "unresolved": 1
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/games.md",
+      "name": "Games",
+      "newest_record_date": "2026-07-16",
+      "record_count": 1,
+      "slug": "games",
+      "source_files": [
+        "memory/timelines.jsonl"
+      ],
+      "statuses": {
+        "active": 1
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/jasper-samuel.md",
+      "name": "Jasper Samuel",
+      "newest_record_date": "2026-07-16",
+      "record_count": 2,
+      "slug": "jasper-samuel",
+      "source_files": [
+        "memory/repositories.jsonl",
+        "memory/unresolved.jsonl"
+      ],
+      "statuses": {
+        "in_progress": 1,
+        "unresolved": 1
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/kingship-christian-centre.md",
+      "name": "Kingship Christian Centre",
+      "newest_record_date": "2026-07-16",
+      "record_count": 92,
+      "slug": "kingship-christian-centre",
+      "source_files": [
+        "memory/preferences.jsonl",
+        "memory/repositories.jsonl",
+        "memory/timelines.jsonl",
+        "memory/unresolved.jsonl",
+        "projects/kingship-christian-centre-ministry.jsonl",
+        "projects/kingship-christian-centre-systems.jsonl",
+        "projects/kingship-christian-centre.jsonl",
+        "projects/websites.jsonl"
+      ],
+      "statuses": {
+        "active": 43,
+        "completed": 15,
+        "historical": 5,
+        "in_progress": 4,
+        "planned": 17,
+        "rejected": 4,
+        "unresolved": 4
+      },
+      "subcards": [
+        "brain/generated/cards/kingship-christian-centre--memory-preferences.md",
+        "brain/generated/cards/kingship-christian-centre--memory-repositories.md",
+        "brain/generated/cards/kingship-christian-centre--memory-timelines.md",
+        "brain/generated/cards/kingship-christian-centre--memory-unresolved.md",
+        "brain/generated/cards/kingship-christian-centre--projects-kingship-christian-centre-ministry.md",
+        "brain/generated/cards/kingship-christian-centre--projects-kingship-christian-centre-systems.md",
+        "brain/generated/cards/kingship-christian-centre--projects-kingship-christian-centre.md",
+        "brain/generated/cards/kingship-christian-centre--projects-websites.md"
+      ]
+    },
+    {
+      "card": "brain/generated/cards/kota.md",
+      "name": "KOTA",
+      "newest_record_date": "2026-07-16",
+      "record_count": 16,
+      "slug": "kota",
+      "source_files": [
+        "memory/unresolved.jsonl",
+        "projects/kota.jsonl"
+      ],
+      "statuses": {
+        "active": 10,
+        "in_progress": 2,
+        "planned": 3,
+        "unresolved": 1
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/mandla-brain.md",
+      "name": "Mandla Brain",
+      "newest_record_date": "2026-11-08",
+      "record_count": 11,
+      "slug": "mandla-brain",
+      "source_files": [
+        "memory/preferences.jsonl",
+        "memory/repositories.jsonl",
+        "memory/timelines.jsonl",
+        "projects/other-projects.jsonl"
+      ],
+      "statuses": {
+        "active": 7,
+        "completed": 3,
+        "planned": 1
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/ml-network.md",
+      "name": "ML Network",
+      "newest_record_date": "2026-07-16",
+      "record_count": 5,
+      "slug": "ml-network",
+      "source_files": [
+        "memory/repositories.jsonl",
+        "projects/ml-network.jsonl"
+      ],
+      "statuses": {
+        "historical": 1,
+        "planned": 4
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/music.md",
+      "name": "Music",
+      "newest_record_date": "2026-07-16",
+      "record_count": 7,
+      "slug": "music",
+      "source_files": [
+        "projects/music.jsonl"
+      ],
+      "statuses": {
+        "active": 6,
+        "planned": 1
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/other-projects.md",
+      "name": "Other Projects",
+      "newest_record_date": "2026-07-16",
+      "record_count": 6,
+      "slug": "other-projects",
+      "source_files": [
+        "memory/repositories.jsonl",
+        "projects/other-projects.jsonl"
+      ],
+      "statuses": {
+        "active": 1,
+        "completed": 1,
+        "in_progress": 1,
+        "planned": 2,
+        "rejected": 1
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/personal-development.md",
+      "name": "Personal Development",
+      "newest_record_date": "2026-07-16",
+      "record_count": 8,
+      "slug": "personal-development",
+      "source_files": [
+        "memory/unresolved.jsonl",
+        "projects/personal-development.jsonl"
+      ],
+      "statuses": {
+        "active": 4,
+        "in_progress": 1,
+        "planned": 1,
+        "unresolved": 2
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/sitefyer.md",
+      "name": "SiteFyer",
+      "newest_record_date": "2026-07-16",
+      "record_count": 13,
+      "slug": "sitefyer",
+      "source_files": [
+        "memory/timelines.jsonl",
+        "projects/sitefyer.jsonl"
+      ],
+      "statuses": {
+        "active": 6,
+        "completed": 1,
+        "implemented": 2,
+        "planned": 3,
+        "unresolved": 1
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/soil-spear.md",
+      "name": "Soil & Spear",
+      "newest_record_date": "2026-07-16",
+      "record_count": 31,
+      "slug": "soil-spear",
+      "source_files": [
+        "memory/repositories.jsonl",
+        "memory/timelines.jsonl",
+        "memory/unresolved.jsonl",
+        "projects/soil-and-spear.jsonl"
+      ],
+      "statuses": {
+        "active": 18,
+        "historical": 6,
+        "in_progress": 4,
+        "planned": 2,
+        "superseded": 1
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/student-accommodation-successor.md",
+      "name": "Student Accommodation Successor",
+      "newest_record_date": "2026-07-16",
+      "record_count": 17,
+      "slug": "student-accommodation-successor",
+      "source_files": [
+        "memory/repositories.jsonl",
+        "memory/timelines.jsonl",
+        "memory/unresolved.jsonl",
+        "projects/samlee-estates.jsonl",
+        "projects/student-accommodation-successor.jsonl",
+        "projects/websites.jsonl"
+      ],
+      "statuses": {
+        "active": 2,
+        "historical": 7,
+        "in_progress": 4,
+        "planned": 2,
+        "unresolved": 2
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/township-shop-tycoon.md",
+      "name": "Township Shop Tycoon",
+      "newest_record_date": "2026-07-16",
+      "record_count": 8,
+      "slug": "township-shop-tycoon",
+      "source_files": [
+        "memory/repositories.jsonl",
+        "memory/unresolved.jsonl",
+        "projects/township-shop-tycoon.jsonl"
+      ],
+      "statuses": {
+        "active": 4,
+        "in_progress": 3,
+        "planned": 1
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/uni-residentia.md",
+      "name": "Uni Residentia",
+      "newest_record_date": "2026-07-16",
+      "record_count": 2,
+      "slug": "uni-residentia",
+      "source_files": [
+        "memory/repositories.jsonl",
+        "memory/unresolved.jsonl"
+      ],
+      "statuses": {
+        "historical": 1,
+        "unresolved": 1
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/website-portfolio-and-freelance-growth.md",
+      "name": "Website Portfolio and Freelance Growth",
+      "newest_record_date": "2026-07-16",
+      "record_count": 4,
+      "slug": "website-portfolio-and-freelance-growth",
+      "source_files": [
+        "memory/repositories.jsonl",
+        "memory/unresolved.jsonl",
+        "projects/websites.jsonl"
+      ],
+      "statuses": {
+        "in_progress": 2,
+        "planned": 2
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/website-samples.md",
+      "name": "Website Samples",
+      "newest_record_date": "2026-07-15",
+      "record_count": 11,
+      "slug": "website-samples",
+      "source_files": [
+        "memory/preferences.jsonl",
+        "memory/unresolved.jsonl",
+        "projects/websites.jsonl"
+      ],
+      "statuses": {
+        "active": 8,
+        "in_progress": 2,
+        "unresolved": 1
+      },
+      "subcards": []
+    },
+    {
+      "card": "brain/generated/cards/websites.md",
+      "name": "Websites",
+      "newest_record_date": "2026-07-16",
+      "record_count": 5,
+      "slug": "websites",
+      "source_files": [
+        "memory/preferences.jsonl",
+        "projects/websites.jsonl"
+      ],
+      "statuses": {
+        "active": 5
+      },
+      "subcards": []
+    }
+  ],
+  "record_total": 310,
+  "records": "brain/generated/record-index.json",
+  "routes": "brain/ROUTES.json",
+  "schema": "mandla-brain.ai-retrieval.v2",
+  "source_total": 24
+}

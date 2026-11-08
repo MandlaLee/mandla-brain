@@ -1,0 +1,48 @@
+name: AI Brain v2 integrity
+
+on:
+  push:
+    paths:
+      - 'brain/**'
+      - 'memory/**'
+      - 'projects/**'
+      - 'scripts/build_ai_index.py'
+      - 'scripts/query_brain.py'
+      - 'scripts/validate_ai_brain.py'
+      - 'START_HERE.md'
+      - 'HANDOVER_PROMPT.md'
+      - 'README.md'
+      - 'AGENTS.md'
+      - 'CLAUDE.md'
+      - 'AI_INSTRUCTIONS.md'
+      - '.github/workflows/ai-brain-validation.yml'
+  pull_request:
+    paths:
+      - 'brain/**'
+      - 'memory/**'
+      - 'projects/**'
+      - 'scripts/build_ai_index.py'
+      - 'scripts/query_brain.py'
+      - 'scripts/validate_ai_brain.py'
+      - 'START_HERE.md'
+      - 'HANDOVER_PROMPT.md'
+      - '.github/workflows/ai-brain-validation.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-ai-retrieval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check deterministic indexes
+        run: python3 scripts/build_ai_index.py --check
+      - name: Validate routing and links
+        run: python3 scripts/validate_ai_brain.py

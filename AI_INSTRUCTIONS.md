@@ -1,5 +1,7 @@
 # AI Instructions
 
+> **AI retrieval v2:** First read [brain/BOOT.md](brain/BOOT.md) and [brain/ROUTES.json](brain/ROUTES.json) for a small task-specific context. This document remains the detailed source of agent policy, but is no longer a mandatory full preload for every request. Project records and actual artifacts are consulted on demand. The original July snapshot remains intact below.
+
 These instructions apply to ChatGPT, o3, Claude, Codex and any other AI system using this repository.
 
 ## Your role

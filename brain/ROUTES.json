@@ -1,0 +1,387 @@
+{
+  "version": 2,
+  "format": "mandla-brain.topic-router",
+  "instructions": "Always load brain/BOOT.md first. Exact user instructions override all repository data. Route to task-relevant files only; do not bulk-read seven root documents. Archive entries are reconstructed and unverified unless independently checked.",
+  "topics": [
+    {
+      "id": "ai-capabilities",
+      "aliases": [
+        "ai efficiency",
+        "make you better",
+        "chatgpt features",
+        "gpts",
+        "plugins",
+        "skills",
+        "connectors",
+        "automation",
+        "senai plugin",
+        "agent handoff"
+      ],
+      "sources": [
+        "brain/RULES.md",
+        "AI_CAPABILITY_DISCOVERY.md",
+        "memory/preferences.jsonl",
+        "brain/STATUS.md"
+      ]
+    },
+    {
+      "id": "senai",
+      "aliases": [
+        "senai",
+        "autonomous assistant",
+        "personal assistant",
+        "agent framework",
+        "dot agent"
+      ],
+      "sources": [
+        "senai/handoff-letter-2026-11-08.md",
+        "archive/2026-11-08/02-SOFTWARE-AND-AI.md",
+        "AI_CAPABILITY_DISCOVERY.md",
+        "brain/STATUS.md"
+      ]
+    },
+    {
+      "id": "faceweave",
+      "aliases": [
+        "faceweave",
+        "face swap",
+        "deep live cam",
+        "live camera",
+        "faceweave live ai",
+        "inswapper"
+      ],
+      "sources": [
+        "archive/2026-11-08/02-SOFTWARE-AND-AI.md",
+        "archive/2026-11-08/05-NO-LEDGER-AND-NEXT-ACTIONS.md",
+        "brain/STATUS.md",
+        "AI_CAPABILITY_DISCOVERY.md"
+      ]
+    },
+    {
+      "id": "mac-apps",
+      "aliases": [
+        "aurum",
+        "tirhani",
+        "dolbot",
+        "idgen",
+        "mac app",
+        "macos utility"
+      ],
+      "sources": [
+        "archive/2026-11-08/02-SOFTWARE-AND-AI.md",
+        "memory/unresolved.jsonl",
+        "brain/STATUS.md"
+      ]
+    },
+    {
+      "id": "phala-digital",
+      "aliases": [
+        "phala digital",
+        "leer500",
+        "lee r500",
+        "web dev business",
+        "portfolio rebrand"
+      ],
+      "sources": [
+        "archive/2026-11-08/03-WEBSITES-BRANDS-AND-MEDIA.md",
+        "projects/websites.jsonl",
+        "brain/STATUS.md"
+      ]
+    },
+    {
+      "id": "design",
+      "aliases": [
+        "design",
+        "logo",
+        "poster",
+        "visual identity",
+        "ui ux",
+        "ux",
+        "branding",
+        "color palette",
+        "typography",
+        "art direction",
+        "sprite",
+        "website layout",
+        "redesign",
+        "website redesign",
+        "brand identity",
+        "visual audit",
+        "graphic design"
+      ],
+      "sources": [
+        "brain/DESIGN_ROUTES.md",
+        "design-knowledge/README.md",
+        "design-knowledge/00_DESIGN_DIRECTOR_CHARTER.md",
+        "skills/design-director/SKILL.md"
+      ]
+    },
+    {
+      "id": "kingship",
+      "aliases": [
+        "kingship",
+        "the thrive generation",
+        "thrive generation",
+        "pastor jasper",
+        "church auditions",
+        "jasper samuel",
+        "kingdom culture"
+      ],
+      "sources": [
+        "projects/kingship-christian-centre.jsonl",
+        "projects/kingship-christian-centre-systems.jsonl",
+        "projects/kingship-christian-centre-ministry.jsonl",
+        "archive/2026-11-08/03-WEBSITES-BRANDS-AND-MEDIA.md",
+        "REPOSITORY_INDEX.md"
+      ]
+    },
+    {
+      "id": "games",
+      "aliases": [
+        "kota",
+        "township shop tycoon",
+        "hodela",
+        "hodela restaurant",
+        "soil and spear",
+        "born in mzansi",
+        "godot",
+        "game development"
+      ],
+      "sources": [
+        "GAME_PROJECT_RELATIONSHIPS.md",
+        "archive/2026-11-08/02-SOFTWARE-AND-AI.md",
+        "projects/kota.jsonl",
+        "projects/township-shop-tycoon.jsonl",
+        "projects/soil-and-spear.jsonl"
+      ]
+    },
+    {
+      "id": "music-media",
+      "aliases": [
+        "mandla lee",
+        "khomelela",
+        "xigaza",
+        "artist interview",
+        "media release",
+        "music",
+        "suno",
+        "ntukulu wa zava",
+        "phasala",
+        "phala artists"
+      ],
+      "sources": [
+        "projects/music.jsonl",
+        "archive/2026-11-08/03-WEBSITES-BRANDS-AND-MEDIA.md"
+      ]
+    },
+    {
+      "id": "trading",
+      "aliases": [
+        "gold",
+        "xauusd",
+        "nfp",
+        "fomc",
+        "cpi",
+        "nas100",
+        "us30",
+        "brent",
+        "uk oil",
+        "forex",
+        "trading",
+        "dxy"
+      ],
+      "sources": [
+        "archive/2026-11-08/04-CAREER-EDUCATION-AND-OTHER-WORK.md",
+        "archive/2026-11-08/02-SOFTWARE-AND-AI.md"
+      ]
+    },
+    {
+      "id": "jobs-career",
+      "aliases": [
+        "job",
+        "application",
+        "cv",
+        "z83",
+        "edupstairs",
+        "compliance job",
+        "yes programme",
+        "internship",
+        "tirhani jobs"
+      ],
+      "sources": [
+        "archive/2026-11-08/04-CAREER-EDUCATION-AND-OTHER-WORK.md",
+        "projects/personal-development.jsonl"
+      ]
+    },
+    {
+      "id": "education",
+      "aliases": [
+        "ufs",
+        "university",
+        "b admin",
+        "public administration",
+        "grade 9",
+        "exam paper",
+        "matric",
+        "memo",
+        "school"
+      ],
+      "sources": [
+        "archive/2026-11-08/04-CAREER-EDUCATION-AND-OTHER-WORK.md",
+        "projects/personal-development.jsonl"
+      ]
+    },
+    {
+      "id": "student-housing",
+      "aliases": [
+        "student accommodation",
+        "samlee",
+        "uni residentia",
+        "campuskey",
+        "accommodation"
+      ],
+      "sources": [
+        "STUDENT_ACCOMMODATION_SUCCESSOR.md",
+        "projects/student-accommodation-successor.jsonl",
+        "projects/samlee-estates.jsonl",
+        "REPOSITORY_INDEX.md"
+      ]
+    },
+    {
+      "id": "fyer-tools",
+      "aliases": [
+        "webpfyer",
+        "bgfyer",
+        "docufyer",
+        "brandfyer",
+        "sitefyer",
+        "fy er",
+        "fyer",
+        "conversion",
+        "pdf tool"
+      ],
+      "sources": [
+        "projects/fyer-ecosystem.jsonl",
+        "projects/sitefyer.jsonl",
+        "SITEFYER_VISION.md",
+        "REPOSITORY_INDEX.md"
+      ]
+    },
+    {
+      "id": "brain-maintenance",
+      "aliases": [
+        "mandla brain",
+        "memory repo",
+        "sync brain",
+        "notion sync",
+        "handover",
+        "jsonl",
+        "agent operating guide"
+      ],
+      "sources": [
+        "brain/README.md",
+        "MEMORY_SCHEMA.md",
+        "brain/STATUS.md",
+        "AI_INSTRUCTIONS.md",
+        "REPOSITORY_INDEX.md"
+      ]
+    },
+    {
+      "id": "repository-operations",
+      "aliases": [
+        "repo",
+        "repository",
+        "github",
+        "git",
+        "pull request",
+        "merge",
+        "deployment",
+        "backup",
+        "site staging"
+      ],
+      "sources": [
+        "REPOSITORY_INDEX.md",
+        "memory/repositories.jsonl",
+        "AGENTS.md",
+        "AI_CAPABILITY_DISCOVERY.md"
+      ]
+    },
+    {
+      "id": "2026-november-handover",
+      "aliases": [
+        "november handover",
+        "2026 november",
+        "no ledger",
+        "deferred projects",
+        "recent project status"
+      ],
+      "sources": [
+        "archive/2026-11-08/00-INDEX.md",
+        "archive/2026-11-08/05-NO-LEDGER-AND-NEXT-ACTIONS.md",
+        "archive/2026-11-08/06-RECONSTRUCTION-GAPS.md"
+      ]
+    }
+  ],
+  "alias_to_project": {
+    "kcc": "Kingship Christian Centre",
+    "kingship christian centre": "Kingship Christian Centre",
+    "kota": "KOTA",
+    "township shop tycoon": "Township Shop Tycoon",
+    "soil & spear": "Soil & Spear",
+    "soil and spear": "Soil & Spear",
+    "cohortly": "Cohortly",
+    "fyer ecosystem": "FYER Ecosystem",
+    "webpfyer": "FYER Ecosystem",
+    "student accommodation successor": "Student Accommodation Successor",
+    "samlee estates": "Student Accommodation Successor",
+    "born in mzansi": "Born In Mzansi",
+    "sitefyer": "SiteFyer",
+    "ml network": "ML Network",
+    "123kasi": "123Kasi",
+    "mandla lee music": "Music",
+    "uni residentia": "Uni Residentia",
+    "website portfolio": "Website Portfolio and Freelance Growth"
+  },
+  "design_chapters": "brain/DESIGN_ROUTES.md",
+  "freshness": "brain/STATUS.md",
+  "topic_to_project": {
+    "kingship": [
+      "Kingship Christian Centre"
+    ],
+    "games": [
+      "KOTA",
+      "Township Shop Tycoon",
+      "Soil & Spear",
+      "Born In Mzansi"
+    ],
+    "music-media": [
+      "Music"
+    ],
+    "student-housing": [
+      "Student Accommodation Successor",
+      "Uni Residentia"
+    ],
+    "fyer-tools": [
+      "FYER Ecosystem",
+      "SiteFyer"
+    ],
+    "ai-capabilities": [
+      "Mandla Brain"
+    ],
+    "brain-maintenance": [
+      "Mandla Brain"
+    ],
+    "repository-operations": [
+      "Mandla Brain"
+    ],
+    "education": [
+      "Personal Development"
+    ],
+    "jobs-career": [
+      "Personal Development"
+    ],
+    "phala-digital": [
+      "Website Portfolio and Freelance Growth"
+    ]
+  }
+}

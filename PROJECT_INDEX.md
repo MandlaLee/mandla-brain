@@ -1,5 +1,8 @@
 # Project Index
 
+> **Freshness notice (AI index v2, 2026-11-08):** This is a July 2026 snapshot, not a real-time state ledger. Begin with [brain/BOOT.md](brain/BOOT.md) and [brain/STATUS.md](brain/STATUS.md). Recent November notes in [archive/2026-11-08/](archive/2026-11-08/) are reconstructed and must not be mistaken for verified deployments.
+
+
 This is the high-level map of Mandla Lee Ndlovu’s active, paused, historical and planned work. It is a navigation document, not a substitute for the project records or actual source repositories.
 
 **Snapshot date:** 16 July 2026

@@ -6,20 +6,11 @@ It exists so that work begun with one AI model or service can continue with anot
 
 This is not primarily a source-code repository. It is a structured continuity and handover system. Actual application and website code lives in separate repositories mapped in `REPOSITORY_INDEX.md`.
 
-## Start here
+## Fast AI navigation (v2)
 
-A new AI assistant must read these files in this order:
+**Start with [brain/BOOT.md](brain/BOOT.md).** It is the short, task-aware entry point. [brain/ROUTES.json](brain/ROUTES.json) selects the relevant topic; [brain/generated/catalog.json](brain/generated/catalog.json) and [project cards](brain/generated/cards/) provide indexed previews of the canonical original records. [brain/STATUS.md](brain/STATUS.md) explains old snapshots and reconstructed November notes.
 
-1. [`START_HERE.md`](START_HERE.md)
-2. [`AI_INSTRUCTIONS.md`](AI_INSTRUCTIONS.md)
-3. [`CURRENT_HANDOVER.md`](CURRENT_HANDOVER.md)
-4. [`PROJECT_INDEX.md`](PROJECT_INDEX.md)
-5. [`REPOSITORY_INDEX.md`](REPOSITORY_INDEX.md)
-6. [`CANONICAL_MEMORY.md`](CANONICAL_MEMORY.md)
-7. [`MEMORY_SCHEMA.md`](MEMORY_SCHEMA.md)
-8. The relevant files in `memory/`, `projects/` and the root project briefs
-
-A ready-to-copy onboarding prompt is available in [`HANDOVER_PROMPT.md`](HANDOVER_PROMPT.md).
+The previous long read-everything entry procedure is preserved at [archive/2026-11-08/pre-ai-v2/START_HERE.md](archive/2026-11-08/pre-ai-v2/START_HERE.md). The compatibility [START_HERE.md](START_HERE.md), full [AI_INSTRUCTIONS.md](AI_INSTRUCTIONS.md), [CURRENT_HANDOVER.md](CURRENT_HANDOVER.md), [PROJECT_INDEX.md](PROJECT_INDEX.md), [REPOSITORY_INDEX.md](REPOSITORY_INDEX.md), [CANONICAL_MEMORY.md](CANONICAL_MEMORY.md), and [MEMORY_SCHEMA.md](MEMORY_SCHEMA.md) remain present, but should be read selectively rather than preloaded unconditionally.
 
 ## Mandatory design knowledge and reusable skill
 

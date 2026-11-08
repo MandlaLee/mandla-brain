@@ -1,0 +1,39 @@
+# Kingship Christian Centre / projects/kingship-christian-centre-systems.jsonl
+
+> Auto-generated QUICKLOOK, not authoritative. The linked JSONL values and current user instructions outrank these abbreviated previews.
+> Project and repository status may have changed since the structured record dates. Check actual live artifacts.
+
+Records: 25 · Latest structured update: 2026-07-16
+Source statuses: active=10, completed=10, planned=5
+
+## Active / pending
+
+- **operating_year** [active; 2026-07-15] Kingship Christian Centre uses a 1 January to 31 December operational and financial year. · [kcc-operating-year-calendar-year](../../../projects/kingship-christian-centre-systems.jsonl#L1)
+- **privacy_boundary** [active; 2026-07-15] General operational workbooks must contain only necessary administrative data and minimal summaries. Detailed counselling, prayer, safeguarding,… · [kcc-general-database-privacy-boundary](../../../projects/kingship-christian-centre-systems.jsonl#L12)
+- **section_18a_status** [active; 2026-07-15] Kingship Christian Centre does not currently have written Section 18A approval and must not issue tax-deductible donation receipts unless approv… · [kcc-section-18a-not-approved](../../../projects/kingship-christian-centre-systems.jsonl#L13)
+- **audition_reference_system** [active; 2026-07-16] The existing Kingship Worship audition Apps Script and embedded HTML form are the working reference implementation. It records applications in a… · [kcc-audition-system-reference-implementation](../../../projects/kingship-christian-centre-systems.jsonl#L16)
+- **audition_transfer_workflow** [active; 2026-07-15] ["Website audition submission","Dedicated audition intake register","Review and callback or trial process","Accepted applicant receives an appro… · [kcc-audition-to-worship-transfer-workflow](../../../projects/kingship-christian-centre-systems.jsonl#L17)
+- **access_model** [active; 2026-07-16] {"mandla":"Sole full administrative access to underlying operational systems.","jasper":"Read-only leadership access to approved aggregate dashb… · [kcc-admin-access-model](../../../projects/kingship-christian-centre-systems.jsonl#L20)
+- **dashboard_data_exclusions** [active; 2026-07-16] ["Individual giving records","Counselling details","Prayer-request narratives","Beneficiary identities","Safeguarding cases","Volunteer screenin… · [kcc-leadership-dashboard-sensitive-data-exclusions](../../../projects/kingship-christian-centre-systems.jsonl#L21)
+- **admin_subdomain** [active; 2026-07-16] Use admin.kingshipcentre.co.za as a subdomain of the existing kingshipcentre.co.za domain; no additional domain purchase is required. · [kcc-admin-subdomain-no-separate-domain](../../../projects/kingship-christian-centre-systems.jsonl#L22)
+- **intentional_minimalism** [active; 2026-07-15] Use intentional minimalism: black, white and gold; bold condensed typography; clean structured layouts; restrained brush accents; controlled ima… · [kcc-brand-intentional-minimalism-general](../../../projects/kingship-christian-centre-systems.jsonl#L24)
+- **localisation** [active; 2026-07-15] {"locale":"en_GB","time_zone":"Africa/Johannesburg","operating_year":"January to December"} · [kcc-system-localisation-standard](../../../projects/kingship-christian-centre-systems.jsonl#L25)
+- **planned_public_forms** [planned; 2026-07-16] ["I'm New Here","Prayer request","Contact form","Worship audition","Volunteer application","Event registration","Thrive In Two enquiry","Open Ha… · [kcc-public-form-inventory](../../../projects/kingship-christian-centre-systems.jsonl#L14)
+- **form_data_flow** [planned; 2026-07-16] Public website forms must write to an intake, import-staging or restricted-intake register for review and validation before records are transfer… · [kcc-form-intake-before-master-records](../../../projects/kingship-christian-centre-systems.jsonl#L15)
+- **phase_3_automation** [planned; 2026-07-16] ["Phase 3A — System Audit and Integration Map","Phase 3B — Safe Development Workflow","Phase 3C — Form System","Phase 3D — Central Apps Script L… · [kcc-phase-3-automation-roadmap](../../../projects/kingship-christian-centre-systems.jsonl#L18)
+- **phase_4_admin_portal** [planned; 2026-07-16] {"target_domain":"admin.kingshipcentre.co.za","chunks":["Portal Foundation","Authentication and Permissions","Executive Dashboard","Administrati… · [kcc-phase-4-admin-portal-roadmap](../../../projects/kingship-christian-centre-systems.jsonl#L19)
+- **optional_database_backlog** [planned; 2026-07-16] ["Prayer & Intercession Database","Campus & Youth Database","Kingship Music Production Database","Facilities, Assets & Safety Database"] · [kcc-additional-ministry-databases-optional-backlog](../../../projects/kingship-christian-centre-systems.jsonl#L23)
+## Completed / historical
+
+- **phase_1_foundation** [completed; 2026-07-16] {"phase":"Phase 1 — Foundation","completed_batches":["Batch 1 — Folder Structure","Batch 2 — Governance"]} · [kcc-foundation-phase-complete](../../../projects/kingship-christian-centre-systems.jsonl#L2)
+- **phase_2_administration** [completed; 2026-07-16] {"phase":"Phase 2 — Administration","completed_batches":["Batch 3A — Finance Database","Batch 3B — Members Database","Batch 3C — Volunteer Datab… · [kcc-administration-phase-complete](../../../projects/kingship-christian-centre-systems.jsonl#L3)
+- **finance_database** [completed; 2026-07-15] The 2026 Finance Database is complete and covers income, expenses, donations, budgets, banking, reporting, controls and compliance notices. · [kcc-finance-database-2026-complete](../../../projects/kingship-christian-centre-systems.jsonl#L4)
+- **members_database** [completed; 2026-07-15] The 2026 Members Database is complete and covers members, households, visitors, new converts, attendance, baptisms, follow-ups, pastoral-care su… · [kcc-members-database-2026-complete](../../../projects/kingship-christian-centre-systems.jsonl#L5)
+- **volunteer_database** [completed; 2026-07-15] The 2026 Volunteer Database is complete and covers volunteer profiles, skills, availability, teams, assignments, screening, safeguarding, traini… · [kcc-volunteer-database-2026-complete](../../../projects/kingship-christian-centre-systems.jsonl#L6)
+- **events_database** [completed; 2026-07-15] The 2026 Events Database is complete and covers event planning, recurring series, registrations, attendance, teams, tasks, programmes, venues, v… · [kcc-events-database-2026-complete](../../../projects/kingship-christian-centre-systems.jsonl#L7)
+- **worship_database** [completed; 2026-07-15] The 2026 Worship Database is complete and covers audition review, assessments, team membership, roles, availability, rehearsals, repertoire, set… · [kcc-worship-database-2026-complete](../../../projects/kingship-christian-centre-systems.jsonl#L8)
+- **thrive_in_two_database** [completed; 2026-07-15] The 2026 Thrive In Two Database is complete and covers enquiries, three contact-advisor positions, clients, appointments, minimal session record… · [kcc-thrive-in-two-database-2026-complete](../../../projects/kingship-christian-centre-systems.jsonl#L9)
+- **outreach_database** [completed; 2026-07-15] The 2026 Outreach Database is complete and covers beneficiaries, requests, needs assessments, referrals, campaigns, activities, food distributio… · [kcc-outreach-database-2026-complete](../../../projects/kingship-christian-centre-systems.jsonl#L10)
+- **media_database** [completed; 2026-07-15] The 2026 Media Database is complete and covers content requests, calendar, campaigns, sermons, livestreams, social posts, design, photo and vide… · [kcc-media-database-2026-complete](../../../projects/kingship-christian-centre-systems.jsonl#L11)
+
+Read original record for full value, provenance and confidence. A plan, compile or conversational report is not a live-system test.

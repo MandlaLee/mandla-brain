@@ -1,5 +1,8 @@
 # Repository Index
 
+> **Freshness notice (AI index v2, 2026-11-08):** This is a July 2026 snapshot, not a real-time state ledger. Begin with [brain/BOOT.md](brain/BOOT.md) and [brain/STATUS.md](brain/STATUS.md). Recent November notes in [archive/2026-11-08/](archive/2026-11-08/) are reconstructed and must not be mistaken for verified deployments.
+
+
 **Audit date:** 16 July 2026
 
 This file maps Mandla Lee Ndlovu’s GitHub repositories to the projects they belong to. Repository names alone are not reliable indicators of current direction. Read the role and source-of-truth status before editing anything.

@@ -1,0 +1,40 @@
+# Kingship Christian Centre / projects/kingship-christian-centre-ministry.jsonl
+
+> Auto-generated QUICKLOOK, not authoritative. The linked JSONL values and current user instructions outrank these abbreviated previews.
+> Project and repository status may have changed since the structured record dates. Check actual live artifacts.
+
+Records: 26 · Latest structured update: 2026-07-16
+Source statuses: active=14, completed=2, in_progress=2, planned=8
+
+## Active / pending
+
+- **legal_entity** [active; 2026-07-16] {"legal_name":"KINGSHIP CHRISTIAN CENTRE NPC","registration_number":"2026/553818/08","jurisdiction":"South Africa","entity_type":"Non Profit Com… · [kcc-legal-entity-npc](../../../projects/kingship-christian-centre-ministry.jsonl#L1)
+- **main_objective** [active; 2026-07-16] Religious worship and other religious community outreach activities. · [kcc-main-objective](../../../projects/kingship-christian-centre-ministry.jsonl#L2)
+- **ministries** [active; 2026-07-16] ["Kingship Worship","Kingship Music Production","Thrive In Two","Campus and Youth Ministry / UniThrive","Prayer and Intercession Ministry","Open… · [kcc-core-ministry-expressions](../../../projects/kingship-christian-centre-ministry.jsonl#L3)
+- **promoter_compensation** [active; 2026-07-16] {"concert_profit_percent":10,"sound_system_rental_percent":20,"thrive_in_two_percent_after_expenses":10,"responsibilities":["Source artists for… · [kcc-promoter-compensation-agreement](../../../projects/kingship-christian-centre-ministry.jsonl#L6)
+- **programme_purpose** [active; 2026-07-16] Kingship Christian Centre's giving and practical-compassion programme for community support, social outreach and accountable impact. · [kcc-open-hands-programme-purpose](../../../projects/kingship-christian-centre-ministry.jsonl#L7)
+- **audition_status** [active; 2026-07-16] Online auditions are open for vocalists, instrumentalists, songwriters, producers, sound engineers, photographers, videographers and media or de… · [kcc-auditions-online-open](../../../projects/kingship-christian-centre-ministry.jsonl#L9)
+- **video_submission** [active; 2026-07-16] The official live website is the canonical source for current video duration, file-size, format and link requirements. The system accepts both d… · [kcc-audition-video-requirement](../../../projects/kingship-christian-centre-ministry.jsonl#L10)
+- **storage_workflow** [active; 2026-07-16] {"application_records":"Google Sheets","uploaded_video_files":"Google Drive","accepted_submission_routes":["Direct video upload","Video link"],"… · [kcc-auditions-storage-workflow](../../../projects/kingship-christian-centre-ministry.jsonl#L11)
+- **page_focus** [active; 2026-07-16] Keep auditions in the main official website and reduce distractions and unnecessary scrolling so applicants reach the form quickly. Separate aud… · [kcc-auditions-page-focus](../../../projects/kingship-christian-centre-ministry.jsonl#L12)
+- **site_structure** [active; 2026-07-16] ["Home","About","Ministries","Events","Contact","Give / Open Hands","Kingship Worship","Choir Auditions","Music Production","Thrive In Two","Cam… · [kcc-website-page-architecture](../../../projects/kingship-christian-centre-ministry.jsonl#L13)
+- **repository_roles** [active; 2026-07-16] {"production":"MandlaLee/thethrivegeneration","live_domain":"kingshipcentre.co.za","staging":"MandlaLee/test","future_follow_page":"MandlaLee/Ki… · [kcc-website-repository-roles](../../../projects/kingship-christian-centre-ministry.jsonl#L14)
+- **ministry_purpose** [active; 2026-07-16] Marriage and relationship support through biblical guidance, counselling-style intake, courses, workshops, referrals and carefully controlled pa… · [kcc-thrive-in-two-purpose](../../../projects/kingship-christian-centre-ministry.jsonl#L18)
+- **income_tax_registration** [active; 2026-07-16] {"status":"SARS Income Tax registration notice received","notice_date":"2026-07-14","public_repository_rule":"The taxpayer reference number and… · [kcc-sars-income-tax-registration-confirmed](../../../projects/kingship-christian-centre-ministry.jsonl#L19)
+- **public_repository_security** [active; 2026-07-16] Mandla Brain may record compliance status, workflows, folder names and non-sensitive company facts, but must never store taxpayer reference numb… · [kcc-compliance-public-repository-security-rule](../../../projects/kingship-christian-centre-ministry.jsonl#L26)
+- **pbo_section18a_status** [in_progress; 2026-07-16] {"pbo":"Not approved; application pack prepared but not submitted in the recorded state","section_18a":"Not approved","control_rule":"Do not adv… · [kcc-pbo-section18a-current-status](../../../projects/kingship-christian-centre-ministry.jsonl#L21)
+- **beneficial_ownership_classification** [in_progress; 2026-07-16] {"working_assumption":"The NPC without members is likely a non-affected company without beneficial ownership to declare beyond the required dire… · [kcc-beneficial-ownership-working-route](../../../projects/kingship-christian-centre-ministry.jsonl#L24)
+- **launch_target** [planned; 2026-07-16] {"month":"September 2026","location":"Midrand, Gauteng","venue_status":"To be announced"} · [kcc-launch-target-midrand-september-2026](../../../projects/kingship-christian-centre-ministry.jsonl#L4)
+- **daily_content_schedule** [planned; 2026-07-16] [{"time":"07:00","content":"Morning prayer"},{"time":"12:00","content":"Marriage and relationship content"},{"time":"17:00","content":"Campus, p… · [kcc-daily-content-rhythm](../../../projects/kingship-christian-centre-ministry.jsonl#L5)
+- **facility_plan** [planned; 2026-07-16] {"main_hall":"Approximately 120–200 square metres with around 150 seats, acoustic treatment and intentional lighting","coffee_shop":"Approximate… · [kcc-facility-vision](../../../projects/kingship-christian-centre-ministry.jsonl#L8)
+- **event_sync** [planned; 2026-07-16] Store events in Google Sheets and publish them to the website through Apps Script or JSON so website events update from the spreadsheet rather t… · [kcc-event-data-from-sheets-goal](../../../projects/kingship-christian-centre-ministry.jsonl#L15)
+- **app_concept** [planned; 2026-07-16] A minimalistic church app centred on events, sermons or media, prayer, giving, ministry information and practical member engagement without unne… · [kcc-minimal-church-app-concept](../../../projects/kingship-christian-centre-ministry.jsonl#L16)
+- **ministry_purpose** [planned; 2026-07-16] Develop, record, release and promote Kingdom-centred music, artists and worship projects with professional production and distribution standards. · [kcc-music-production-purpose](../../../projects/kingship-christian-centre-ministry.jsonl#L17)
+- **public_officer_candidate** [planned; 2026-07-16] {"candidate":"Jasper Onyedikachi Samuel Ohaeri","state":"Draft appointment only","requirements":["Board resolution signed by the directors","Can… · [kcc-public-officer-working-appointment](../../../projects/kingship-christian-centre-ministry.jsonl#L22)
+- **first_annual_return** [planned; 2026-07-16] {"first_anniversary":"2027-07-14","internal_filing_target":"2027-07-31","requirements":["Confirm the exact CIPC portal filing window and fee","P… · [kcc-first-cipc-annual-return-plan](../../../projects/kingship-christian-centre-ministry.jsonl#L25)
+## Completed / historical
+
+- **sars_compliance_pack** [completed; 2026-07-16] {"storage":"Google Drive: KINGSHIP CHRISTIAN CENTRE / 01 Legal & Compliance / 04 SARS & Tax Exemption / SARS Compliance Pack — 2026-2027","docum… · [kcc-sars-compliance-system](../../../projects/kingship-christian-centre-ministry.jsonl#L20)
+- **cipc_compliance_pack** [completed; 2026-07-16] {"storage":"Google Drive: KINGSHIP CHRISTIAN CENTRE / 01 Legal & Compliance / 01 CIPC & Incorporation / CIPC Corporate Compliance Pack — 2026-20… · [kcc-cipc-corporate-compliance-system](../../../projects/kingship-christian-centre-ministry.jsonl#L23)
+
+Read original record for full value, provenance and confidence. A plan, compile or conversational report is not a live-system test.

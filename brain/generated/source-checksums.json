@@ -1,0 +1,31 @@
+{
+  "algorithm": "sha256",
+  "note": "Canonical JSONL hashes for deterministic drift detection.",
+  "schema": "mandla-brain.ai-retrieval.v2",
+  "sources": {
+    "memory/identity.jsonl": "363929c7b709d96485cac187a94cc6068727fa5d7cd9674f95b3744302b4799b",
+    "memory/lessons.jsonl": "2913d1017833af35c15bdc15bc041144aa1e869213fc30d189f104122d006e54",
+    "memory/people.jsonl": "6089a1fbc5d9f52c9f51ec1831d0ea959e6c73cbf164a67c58192cf3cd705927",
+    "memory/preferences.jsonl": "66bf2bc6bd5a0905cd055778d2fcfb2932e3eadc7b926adfbd5617c3fdbe4866",
+    "memory/repositories.jsonl": "a6833bb07be2e8f1ce7f8e87ad420c6f5a4e8e515424567e86bac8582bd8ca64",
+    "memory/timelines.jsonl": "af5c88a7f119200b2cd5252ef9be1c9a690ee938d6e601799d155ac6c67e5e18",
+    "memory/unresolved.jsonl": "044cefc790d11c4a73bf6f7f77e7b92ba2d3a0fc691a67417b8690bc1fdb1565",
+    "projects/born-in-mzansi.jsonl": "e71819368799213f2402a14911e91e61981b8e93d1b129f49d6a14a80a5b87d0",
+    "projects/cohortly.jsonl": "83d26456e0476b0eaa35ad4a4373687db087e175494a3dff6a783fcc5d0aa24f",
+    "projects/fyer-ecosystem.jsonl": "65dd19c2cce6c65c39d144e8184f53e69b7ed5cdd4146fc5b3316cd6d7774429",
+    "projects/kingship-christian-centre-ministry.jsonl": "30f9ef5cc2e1f51748e201d8ea8a8a8cdc2ccdd6f26b013030097ceb26de785c",
+    "projects/kingship-christian-centre-systems.jsonl": "f47181dfdeaf58347a73b8351ef0145df906247748fbc97e1085a4ecb5101ce7",
+    "projects/kingship-christian-centre.jsonl": "bf64e0dd0c985658715d51949aa5aff082f1f8baedec10f24082c7fbbab0e21e",
+    "projects/kota.jsonl": "f8dd9eb5cd5ac13a8fb8d2889a74fbca6a99c2f7a3e58314a6785c6376b93601",
+    "projects/ml-network.jsonl": "1ac4aa482b8bdf4c9aa55500c4a6c654205b5b2e05953d84408bb516ac85a2d3",
+    "projects/music.jsonl": "1ae36a4d696509dea172df275ff7867789eaee07b3403ea3909f181381df9861",
+    "projects/other-projects.jsonl": "d06c0e4a83a8e6f8c448fd11b8f5e88ed3bb2382c24c8ef0c486b0afc010275a",
+    "projects/personal-development.jsonl": "a9577298e3a3bba3e2d35615100def3540a75af0934fae3b9a9ceb364e874526",
+    "projects/samlee-estates.jsonl": "e261a5510c7d7b015657c12b7b47bc42cdfddc89310040343748b7016133c107",
+    "projects/sitefyer.jsonl": "deb3e3359a8e6c4fc7801f6364ab0214de0b4ce17e01553f3227f6f504afcd15",
+    "projects/soil-and-spear.jsonl": "c37145243d39e1b5f66f9aeaa7814652546408fa4799a961bea520125a989b75",
+    "projects/student-accommodation-successor.jsonl": "11383a5cdef7511bc1f11ba47dac80eb33422e7b45e2c706e3c32656401961d6",
+    "projects/township-shop-tycoon.jsonl": "29f1277daa968b8cd7311f115c33e8e388dc7b39c3af884102df79cc18a0e4e7",
+    "projects/websites.jsonl": "24875f9810879a22163992717c6fe458427122d80dc05e193599764d566f93ff"
+  }
+}
